@@ -1,0 +1,4 @@
+(1 N_400_example_1_dt_0.1_layer_10_beta_ne_30
+max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+
+(2) 初始值的设定

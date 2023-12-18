@@ -1,0 +1,3510 @@
+C:\Users\janga\miniconda3\envs\gpu\python.exe C:/Users/janga/Cold_Qing/ConsLawNet1/learn_multiplication_function_update_numerical_scheme_with_param/version_3/beta_200_poly/learn_function_1d.py
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\.libs\libopenblas.GK7GX5KEQ4F6UYO3P26ULGBQYHGQO7J4.gfortran-win_amd64.dll
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
+  warnings.warn("loaded more than 1 DLL from .libs:"
+poly0.molecular.weight : Parameter containing:
+tensor([[ 0.2420,  0.5028, -0.4316, -0.2420, -0.3580]], dtype=torch.float64,
+       requires_grad=True)
+poly0.molecular.bias : Parameter containing:
+tensor([0.1092], dtype=torch.float64, requires_grad=True)
+poly0.denominator.weight : Parameter containing:
+tensor([[-0.5140,  0.6604, -0.6427,  0.0736, -0.3398]], dtype=torch.float64,
+       requires_grad=True)
+poly0.denominator.bias : Parameter containing:
+tensor([0.2239], dtype=torch.float64, requires_grad=True)
+该层的结构：[1, 5]
+该层参数和：5
+该层的结构：[1]
+该层参数和：1
+该层的结构：[1, 5]
+该层参数和：5
+该层的结构：[1]
+该层参数和：1
+总参数数量和：12
+Parameter containing:
+tensor([[ 0.2420,  0.5028, -0.4316, -0.2420, -0.3580]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.1092], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5140,  0.6604, -0.6427,  0.0736, -0.3398]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.2239], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.169492
+pre_time_step:
+[0, 1, 1, 2, 2, 3, 4, 4, 5, 5]
+max_f_prime:
+tensor([0.1000], dtype=torch.float64)
+tensor([2.2012, 2.2247, 2.2484, 2.2722, 2.2962, 2.3204, 2.3447, 2.3691, 2.3937,
+        2.4185], dtype=torch.float64)
+tensor([2.1895, 2.2130, 2.2366, 2.2603, 2.2842, 2.3083, 2.3325, 2.3569, 2.3814,
+        2.4061], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 41.585320, data loss0 0.000000, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 70848.507812, penalty 41.585320,
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           12     M =          500
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  4.15853D+01    |proj g|=  2.02000D+02
+max_f_prime 1.451393, dt 0.012821, time_steps 156.000000,
+Parameter containing:
+tensor([[ 0.2420,  0.5028, -0.4316, -0.2420, -0.3580]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.1092], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0301,  1.0552, -0.3141,  0.3522, -0.0998]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8295], dtype=torch.float64, requires_grad=True)
+ This problem is unconstrained.
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.01282051282051282
+pre_time_step:
+[0, 8, 16, 23, 31, 39, 47, 55, 62, 70]
+max_f_prime:
+tensor([1.4514], dtype=torch.float64)
+tensor([0.2966, 0.2983, 0.3001, 0.3019, 0.3036, 0.3053, 0.3070, 0.3086, 0.3103,
+        0.3119], dtype=torch.float64)
+tensor([0.2956, 0.2974, 0.2992, 0.3010, 0.3027, 0.3044, 0.3061, 0.3078, 0.3095,
+        0.3111], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.035717, data loss0 0.035717, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.448348, penalty 0.000000,
+C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param\version_3\beta_200_poly\aTEAM\optim\PGManager.py:195: UserWarning: volatile was removed (Variable.volatile is always False)
+  if p.grad.volatile:
+
+At iterate    1    f=  3.57167D-02    |proj g|=  2.30085D-02
+max_f_prime 1.451137, dt 0.012821, time_steps 156.000000,
+Parameter containing:
+tensor([[ 0.2421,  0.5029, -0.4315, -0.2420, -0.3579]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.1092], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0301,  1.0552, -0.3141,  0.3522, -0.0998]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8295], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.01282051282051282
+pre_time_step:
+[0, 8, 16, 23, 31, 39, 47, 55, 62, 70]
+max_f_prime:
+tensor([1.4511], dtype=torch.float64)
+tensor([0.2966, 0.2984, 0.3002, 0.3019, 0.3037, 0.3054, 0.3071, 0.3087, 0.3104,
+        0.3120], dtype=torch.float64)
+tensor([0.2957, 0.2975, 0.2993, 0.3011, 0.3028, 0.3045, 0.3062, 0.3079, 0.3095,
+        0.3112], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.035711, data loss0 0.035711, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.448093, penalty 0.000000,
+max_f_prime 1.450115, dt 0.012821, time_steps 156.000000,
+Parameter containing:
+tensor([[ 0.2424,  0.5031, -0.4313, -0.2418, -0.3578]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.1089], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0302,  1.0552, -0.3141,  0.3522, -0.0998]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8295], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.01282051282051282
+pre_time_step:
+[0, 8, 16, 23, 31, 39, 47, 55, 62, 70]
+max_f_prime:
+tensor([1.4501], dtype=torch.float64)
+tensor([0.2969, 0.2987, 0.3005, 0.3022, 0.3040, 0.3057, 0.3074, 0.3090, 0.3107,
+        0.3123], dtype=torch.float64)
+tensor([0.2960, 0.2978, 0.2996, 0.3014, 0.3031, 0.3048, 0.3065, 0.3082, 0.3099,
+        0.3115], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.035690, data loss0 0.035690, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.447071, penalty 0.000000,
+max_f_prime 1.446027, dt 0.012903, time_steps 155.000000,
+Parameter containing:
+tensor([[ 0.2435,  0.5040, -0.4305, -0.2411, -0.3572]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.1078], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0303,  1.0551, -0.3141,  0.3522, -0.0998]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8297], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.012903225806451613
+pre_time_step:
+[0, 8, 16, 23, 31, 39, 47, 54, 62, 70]
+max_f_prime:
+tensor([1.4460], dtype=torch.float64)
+tensor([0.2982, 0.3000, 0.3018, 0.3035, 0.3053, 0.3070, 0.3087, 0.3104, 0.3120,
+        0.3136], dtype=torch.float64)
+tensor([0.2973, 0.2991, 0.3009, 0.3026, 0.3044, 0.3061, 0.3078, 0.3095, 0.3112,
+        0.3128], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.035605, data loss0 0.035605, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.442985, penalty 0.000000,
+max_f_prime 1.429663, dt 0.012987, time_steps 154.000000,
+Parameter containing:
+tensor([[ 0.2479,  0.5077, -0.4274, -0.2384, -0.3549]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.1037], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0306,  1.0549, -0.3143,  0.3520, -0.0999]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8304], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.012987012987012988
+pre_time_step:
+[0, 8, 15, 23, 31, 38, 46, 54, 62, 69]
+max_f_prime:
+tensor([1.4297], dtype=torch.float64)
+tensor([0.3031, 0.3049, 0.3068, 0.3086, 0.3104, 0.3121, 0.3139, 0.3156, 0.3173,
+        0.3190], dtype=torch.float64)
+tensor([0.3022, 0.3040, 0.3059, 0.3077, 0.3095, 0.3112, 0.3130, 0.3147, 0.3164,
+        0.3181], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.035259, data loss0 0.035259, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.426629, penalty 0.000000,
+max_f_prime 1.364026, dt 0.013605, time_steps 147.000000,
+Parameter containing:
+tensor([[ 0.2655,  0.5224, -0.4150, -0.2277, -0.3454]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.0869], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0321,  1.0539, -0.3149,  0.3516, -0.1001]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8333], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.013605442176870748
+pre_time_step:
+[0, 7, 15, 22, 29, 37, 44, 51, 59, 66]
+max_f_prime:
+tensor([1.3640], dtype=torch.float64)
+tensor([0.3226, 0.3247, 0.3267, 0.3286, 0.3306, 0.3325, 0.3345, 0.3363, 0.3382,
+        0.3401], dtype=torch.float64)
+tensor([0.3216, 0.3237, 0.3257, 0.3277, 0.3296, 0.3316, 0.3335, 0.3354, 0.3373,
+        0.3392], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.033898, data loss0 0.033898, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.361026, penalty 0.000000,
+max_f_prime 1.098590, dt 0.016949, time_steps 118.000000,
+Parameter containing:
+tensor([[ 0.3362,  0.5812, -0.3653, -0.1848, -0.3078]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.0198], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0380,  1.0499, -0.3176,  0.3499, -0.1012]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.8450], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.01694915254237288
+pre_time_step:
+[0, 6, 12, 18, 24, 30, 35, 41, 47, 53]
+max_f_prime:
+tensor([1.0986], dtype=torch.float64)
+tensor([0.3989, 0.4016, 0.4042, 0.4069, 0.4095, 0.4121, 0.4147, 0.4173, 0.4198,
+        0.4223], dtype=torch.float64)
+tensor([0.3975, 0.4002, 0.4029, 0.4056, 0.4082, 0.4108, 0.4134, 0.4160, 0.4186,
+        0.4211], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.028742, data loss0 0.028742, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.095733, penalty 0.000000,
+
+At iterate    2    f=  2.87421D-02    |proj g|=  1.93644D-02
+max_f_prime 1.673892, dt 0.011111, time_steps 180.000000,
+Parameter containing:
+tensor([[ 0.8178,  0.9495, -0.0689,  0.0689, -0.0799]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.3574], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0027,  1.0951, -0.2745,  0.3881, -0.0685]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.7392], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.011111111111111112
+pre_time_step:
+[0, 9, 18, 27, 36, 45, 54, 63, 72, 81]
+max_f_prime:
+tensor([1.6739], dtype=torch.float64)
+tensor([1.1081, 1.1160, 1.1239, 1.1318, 1.1396, 1.1474, 1.1551, 1.1628, 1.1704,
+        1.1780], dtype=torch.float64)
+tensor([1.1041, 1.1120, 1.1200, 1.1279, 1.1357, 1.1435, 1.1513, 1.1590, 1.1666,
+        1.1742], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.016573, data loss0 0.016573, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.673885, penalty 0.000000,
+
+At iterate    3    f=  1.65725D-02    |proj g|=  1.99925D-02
+max_f_prime 1.211116, dt 0.015385, time_steps 130.000000,
+Parameter containing:
+tensor([[ 0.6723,  0.7972, -0.2132, -0.0673, -0.2095]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1720], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0245,  1.0795, -0.2801,  0.3901, -0.0611]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.7661], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.015384615384615385
+pre_time_step:
+[0, 6, 13, 20, 26, 32, 39, 46, 52, 58]
+max_f_prime:
+tensor([1.2111], dtype=torch.float64)
+tensor([0.8703, 0.8759, 0.8813, 0.8868, 0.8922, 0.8976, 0.9029, 0.9082, 0.9134,
+        0.9187], dtype=torch.float64)
+tensor([0.8676, 0.8731, 0.8786, 0.8841, 0.8895, 0.8949, 0.9002, 0.9056, 0.9108,
+        0.9161], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.014943, data loss0 0.014943, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.211112, penalty 0.000000,
+
+At iterate    4    f=  1.49425D-02    |proj g|=  1.33617D-02
+max_f_prime 1.372762, dt 0.013605, time_steps 147.000000,
+Parameter containing:
+tensor([[ 0.7406,  0.8123, -0.2220, -0.0875, -0.2352]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1779], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0162,  1.0975, -0.2576,  0.4143, -0.0363]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.7147], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.013605442176870748
+pre_time_step:
+[0, 7, 15, 22, 29, 37, 44, 51, 59, 66]
+max_f_prime:
+tensor([1.3728], dtype=torch.float64)
+tensor([1.0305, 1.0367, 1.0428, 1.0488, 1.0548, 1.0608, 1.0667, 1.0725, 1.0783,
+        1.0841], dtype=torch.float64)
+tensor([1.0274, 1.0336, 1.0397, 1.0458, 1.0518, 1.0578, 1.0637, 1.0696, 1.0754,
+        1.0812], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.012785, data loss0 0.012785, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 1.372766, penalty 0.000000,
+max_f_prime 2.372859, dt 0.007874, time_steps 254.000000,
+Parameter containing:
+tensor([[ 1.0139,  0.8725, -0.2573, -0.1681, -0.3381]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.2015], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0172,  1.1696, -0.1678,  0.5115,  0.0630]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.5094], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.007874015748031496
+pre_time_step:
+[0, 13, 25, 38, 51, 64, 76, 89, 102, 114]
+max_f_prime:
+tensor([2.3729], dtype=torch.float64)
+tensor([2.0038, 2.0140, 2.0240, 2.0339, 2.0436, 2.0533, 2.0628, 2.0721, 2.0814,
+        2.0904], dtype=torch.float64)
+tensor([1.9987, 2.0089, 2.0190, 2.0289, 2.0388, 2.0485, 2.0580, 2.0675, 2.0767,
+        2.0859], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.002934, data loss0 0.002934, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.372844, penalty 0.000000,
+Parameter containing:
+tensor([[ 2.1071,  1.1132, -0.3985, -0.4906, -0.7497]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.2957], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[0.1506, 1.4579, 0.1916, 0.9000, 0.4599]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.3121], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.007874015748031496
+pre_time_step:
+[0, 13, 25, 38, 51, 64, 76, 89, 102, 114]
+max_f_prime:
+tensor([2.3729], dtype=torch.float64)
+tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=torch.float64)
+tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=torch.float64,
+       grad_fn=<SliceBackward0>)
+loss0 39.383560, data loss0 0.000000, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 230082.937500, penalty 39.383560,
+max_f_prime 3.510738, dt 0.005333, time_steps 375.000000,
+Parameter containing:
+tensor([[ 1.1775,  0.9085, -0.2784, -0.2164, -0.3997]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.2156], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0371,  1.2127, -0.1140,  0.5696,  0.1224]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3864], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005333333333333333
+pre_time_step:
+[0, 19, 38, 56, 75, 94, 113, 131, 150, 169]
+max_f_prime:
+tensor([3.5107], dtype=torch.float64)
+tensor([3.1005, 3.1156, 3.1304, 3.1450, 3.1593, 3.1733, 3.1870, 3.2005, 3.2137,
+        3.2266], dtype=torch.float64)
+tensor([3.0929, 3.1081, 3.1231, 3.1377, 3.1522, 3.1663, 3.1802, 3.1938, 3.2071,
+        3.2202], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.004724, data loss0 0.004724, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.510756, penalty 0.000000,
+max_f_prime 2.726080, dt 0.006849, time_steps 292.000000,
+Parameter containing:
+tensor([[ 1.0753,  0.8860, -0.2652, -0.1862, -0.3612]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.2068], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0246,  1.1858, -0.1476,  0.5333,  0.0852]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.4633], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00684931506849315
+pre_time_step:
+[0, 15, 29, 44, 58, 73, 88, 102, 117, 131]
+max_f_prime:
+tensor([2.7261], dtype=torch.float64)
+tensor([2.3448, 2.3564, 2.3679, 2.3792, 2.3904, 2.4013, 2.4121, 2.4227, 2.4332,
+        2.4435], dtype=torch.float64)
+tensor([2.3389, 2.3506, 2.3622, 2.3736, 2.3848, 2.3958, 2.4067, 2.4174, 2.4280,
+        2.4383], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001688, data loss0 0.001688, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.726072, penalty 0.000000,
+
+At iterate    5    f=  1.68750D-03    |proj g|=  1.68136D-02
+max_f_prime 3.060451, dt 0.006116, time_steps 327.000000,
+Parameter containing:
+tensor([[ 1.1302,  0.8547, -0.3185, -0.2429, -0.4156]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.0696], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0374,  1.2131, -0.1184,  0.5602,  0.1090]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3963], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0061162079510703364
+pre_time_step:
+[0, 16, 33, 49, 65, 82, 98, 114, 131, 147]
+max_f_prime:
+tensor([3.0605], dtype=torch.float64)
+tensor([2.8688, 2.8784, 2.8878, 2.8969, 2.9057, 2.9143, 2.9227, 2.9309, 2.9387,
+        2.9464], dtype=torch.float64)
+tensor([2.8640, 2.8737, 2.8831, 2.8923, 2.9013, 2.9101, 2.9186, 2.9268, 2.9348,
+        2.9426], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.006175, data loss0 0.006175, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.060455, penalty 0.000000,
+max_f_prime 2.765324, dt 0.006757, time_steps 296.000000,
+Parameter containing:
+tensor([[ 1.0830,  0.8816, -0.2728, -0.1942, -0.3689]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1874], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0265,  1.1896, -0.1435,  0.5371,  0.0886]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.4538], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006756756756756757
+pre_time_step:
+[0, 15, 30, 44, 59, 74, 89, 104, 118, 133]
+max_f_prime:
+tensor([2.7653], dtype=torch.float64)
+tensor([2.4106, 2.4221, 2.4334, 2.4445, 2.4554, 2.4662, 2.4767, 2.4871, 2.4973,
+        2.5073], dtype=torch.float64)
+tensor([2.4049, 2.4164, 2.4278, 2.4389, 2.4500, 2.4608, 2.4715, 2.4819, 2.4922,
+        2.5023], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001500, data loss0 0.001500, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.765313, penalty 0.000000,
+
+At iterate    6    f=  1.49964D-03    |proj g|=  4.85942D-03
+max_f_prime 3.942979, dt 0.004739, time_steps 422.000000,
+Parameter containing:
+tensor([[ 1.2152,  0.8911, -0.3099, -0.2497, -0.4313]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1358], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0490,  1.2329, -0.0934,  0.5882,  0.1384]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3368], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.004739336492890996
+pre_time_step:
+[0, 21, 42, 63, 84, 105, 127, 148, 169, 190]
+max_f_prime:
+tensor([3.9430], dtype=torch.float64)
+tensor([3.6663, 3.6805, 3.6943, 3.7077, 3.7208, 3.7335, 3.7459, 3.7578, 3.7694,
+        3.7807], dtype=torch.float64)
+tensor([3.6591, 3.6734, 3.6874, 3.7010, 3.7143, 3.7272, 3.7397, 3.7519, 3.7637,
+        3.7751], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.005109, data loss0 0.005109, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.943007, penalty 0.000000,
+max_f_prime 2.842564, dt 0.006579, time_steps 304.000000,
+Parameter containing:
+tensor([[ 1.0945,  0.8824, -0.2760, -0.1990, -0.3743]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1829], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0284,  1.1934, -0.1391,  0.5415,  0.0929]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.4436], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006578947368421052
+pre_time_step:
+[0, 15, 30, 46, 61, 76, 91, 106, 122, 137]
+max_f_prime:
+tensor([2.8426], dtype=torch.float64)
+tensor([2.4936, 2.5053, 2.5168, 2.5281, 2.5392, 2.5501, 2.5608, 2.5714, 2.5817,
+        2.5919], dtype=torch.float64)
+tensor([2.4877, 2.4995, 2.5111, 2.5224, 2.5336, 2.5447, 2.5555, 2.5661, 2.5765,
+        2.5868], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001450, data loss0 0.001450, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.842555, penalty 0.000000,
+
+At iterate    7    f=  1.44962D-03    |proj g|=  4.58263D-03
+max_f_prime 2.915905, dt 0.006410, time_steps 312.000000,
+Parameter containing:
+tensor([[ 1.1035,  0.8814, -0.2782, -0.2003, -0.3743]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1687], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0339,  1.1991, -0.1348,  0.5443,  0.0944]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.4312], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00641025641025641
+pre_time_step:
+[0, 16, 31, 47, 62, 78, 94, 109, 125, 140]
+max_f_prime:
+tensor([2.9159], dtype=torch.float64)
+tensor([2.5896, 2.6012, 2.6126, 2.6239, 2.6349, 2.6457, 2.6563, 2.6667, 2.6769,
+        2.6869], dtype=torch.float64)
+tensor([2.5837, 2.5954, 2.6070, 2.6183, 2.6294, 2.6403, 2.6510, 2.6615, 2.6718,
+        2.6819], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001419, data loss0 0.001419, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.915898, penalty 0.000000,
+
+At iterate    8    f=  1.41882D-03    |proj g|=  2.35402D-03
+max_f_prime 2.903857, dt 0.006431, time_steps 311.000000,
+Parameter containing:
+tensor([[ 1.0982,  0.8803, -0.2747, -0.1931, -0.3645]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1659], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0384,  1.2009, -0.1357,  0.5412,  0.0896]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.4304], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006430868167202572
+pre_time_step:
+[0, 16, 31, 47, 62, 78, 93, 109, 124, 140]
+max_f_prime:
+tensor([2.9039], dtype=torch.float64)
+tensor([2.5862, 2.5976, 2.6089, 2.6199, 2.6308, 2.6415, 2.6519, 2.6622, 2.6722,
+        2.6821], dtype=torch.float64)
+tensor([2.5804, 2.5919, 2.6033, 2.6144, 2.6254, 2.6362, 2.6467, 2.6571, 2.6672,
+        2.6772], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001376, data loss0 0.001376, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.903865, penalty 0.000000,
+max_f_prime 2.855341, dt 0.006536, time_steps 306.000000,
+Parameter containing:
+tensor([[ 1.0771,  0.8758, -0.2604, -0.1643, -0.3252]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1546], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0565,  1.2081, -0.1396,  0.5284,  0.0704]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.4269], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006535947712418301
+pre_time_step:
+[0, 15, 31, 46, 61, 76, 92, 107, 122, 138]
+max_f_prime:
+tensor([2.8553], dtype=torch.float64)
+tensor([2.5709, 2.5818, 2.5924, 2.6029, 2.6131, 2.6231, 2.6330, 2.6426, 2.6520,
+        2.6612], dtype=torch.float64)
+tensor([2.5654, 2.5764, 2.5871, 2.5977, 2.6080, 2.6181, 2.6281, 2.6378, 2.6473,
+        2.6566], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001249, data loss0 0.001249, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.855319, penalty 0.000000,
+
+At iterate    9    f=  1.24936D-03    |proj g|=  8.33932D-03
+max_f_prime 2.885235, dt 0.006472, time_steps 309.000000,
+Parameter containing:
+tensor([[ 1.0373,  0.8656, -0.2227, -0.0863, -0.2174]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1155], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1146,  1.2374, -0.1424,  0.4993,  0.0216]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3960], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006472491909385114
+pre_time_step:
+[0, 15, 31, 46, 62, 77, 93, 108, 124, 139]
+max_f_prime:
+tensor([2.8852], dtype=torch.float64)
+tensor([2.7039, 2.7130, 2.7219, 2.7306, 2.7390, 2.7472, 2.7552, 2.7629, 2.7704,
+        2.7776], dtype=torch.float64)
+tensor([2.6992, 2.7085, 2.7175, 2.7263, 2.7348, 2.7432, 2.7512, 2.7591, 2.7667,
+        2.7740], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000980, data loss0 0.000980, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.885242, penalty 0.000000,
+
+At iterate   10    f=  9.80473D-04    |proj g|=  1.44709D-02
+max_f_prime 2.962648, dt 0.006309, time_steps 317.000000,
+Parameter containing:
+tensor([[ 1.0327,  0.8622, -0.2165, -0.0702, -0.1933]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1132], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1284,  1.2476, -0.1396,  0.4953,  0.0121]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3826], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006309148264984227
+pre_time_step:
+[0, 16, 32, 48, 63, 79, 95, 111, 127, 143]
+max_f_prime:
+tensor([2.9626], dtype=torch.float64)
+tensor([2.7987, 2.8077, 2.8164, 2.8249, 2.8331, 2.8411, 2.8488, 2.8563, 2.8635,
+        2.8704], dtype=torch.float64)
+tensor([2.7941, 2.8032, 2.8121, 2.8207, 2.8290, 2.8371, 2.8450, 2.8526, 2.8599,
+        2.8670], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000846, data loss0 0.000846, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 2.962662, penalty 0.000000,
+
+At iterate   11    f=  8.46366D-04    |proj g|=  5.81236D-03
+max_f_prime 3.126203, dt 0.005988, time_steps 334.000000,
+Parameter containing:
+tensor([[ 1.0392,  0.8588, -0.2153, -0.0617, -0.1781]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1013], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1419,  1.2605, -0.1323,  0.4964,  0.0080]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3606], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005988023952095809
+pre_time_step:
+[0, 17, 33, 50, 67, 84, 100, 117, 134, 150]
+max_f_prime:
+tensor([3.1262], dtype=torch.float64)
+tensor([2.9925, 3.0011, 3.0095, 3.0175, 3.0252, 3.0327, 3.0398, 3.0467, 3.0533,
+        3.0595], dtype=torch.float64)
+tensor([2.9881, 2.9969, 3.0053, 3.0135, 3.0214, 3.0290, 3.0363, 3.0433, 3.0500,
+        3.0564], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000870, data loss0 0.000870, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.126159, penalty 0.000000,
+max_f_prime 3.018374, dt 0.006192, time_steps 323.000000,
+Parameter containing:
+tensor([[ 1.0350,  0.8610, -0.2161, -0.0672, -0.1879]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1089], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1332,  1.2522, -0.1370,  0.4957,  0.0106]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3748], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006191950464396285
+pre_time_step:
+[0, 16, 32, 48, 65, 81, 97, 113, 129, 145]
+max_f_prime:
+tensor([3.0184], dtype=torch.float64)
+tensor([2.8651, 2.8740, 2.8826, 2.8909, 2.8990, 2.9068, 2.9144, 2.9216, 2.9286,
+        2.9354], dtype=torch.float64)
+tensor([2.8606, 2.8696, 2.8783, 2.8868, 2.8950, 2.9029, 2.9106, 2.9180, 2.9251,
+        2.9320], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000830, data loss0 0.000830, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.018392, penalty 0.000000,
+
+At iterate   12    f=  8.30320D-04    |proj g|=  4.52742D-03
+max_f_prime 3.076781, dt 0.006079, time_steps 329.000000,
+Parameter containing:
+tensor([[ 1.0343,  0.8590, -0.2150, -0.0618, -0.1785]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1088], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1378,  1.2578, -0.1339,  0.4957,  0.0077]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3670], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0060790273556231
+pre_time_step:
+[0, 16, 33, 49, 66, 82, 99, 115, 132, 148]
+max_f_prime:
+tensor([3.0768], dtype=torch.float64)
+tensor([2.9293, 2.9382, 2.9468, 2.9551, 2.9632, 2.9710, 2.9784, 2.9857, 2.9926,
+        2.9993], dtype=torch.float64)
+tensor([2.9247, 2.9338, 2.9425, 2.9510, 2.9592, 2.9671, 2.9747, 2.9821, 2.9892,
+        2.9959], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000826, data loss0 0.000826, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.076756, penalty 0.000000,
+
+At iterate   13    f=  8.26448D-04    |proj g|=  4.24140D-03
+max_f_prime 3.064969, dt 0.006098, time_steps 328.000000,
+Parameter containing:
+tensor([[ 1.0313,  0.8587, -0.2124, -0.0571, -0.1725]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1058], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1408,  1.2586, -0.1348,  0.4935,  0.0047]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3667], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006097560975609756
+pre_time_step:
+[0, 16, 33, 49, 66, 82, 98, 115, 131, 148]
+max_f_prime:
+tensor([3.0650], dtype=torch.float64)
+tensor([2.9233, 2.9320, 2.9404, 2.9486, 2.9564, 2.9640, 2.9713, 2.9783, 2.9851,
+        2.9916], dtype=torch.float64)
+tensor([2.9188, 2.9277, 2.9362, 2.9445, 2.9525, 2.9602, 2.9677, 2.9748, 2.9817,
+        2.9883], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000823, data loss0 0.000823, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.064986, penalty 0.000000,
+
+At iterate   14    f=  8.23457D-04    |proj g|=  8.57939D-04
+max_f_prime 3.058724, dt 0.006116, time_steps 327.000000,
+Parameter containing:
+tensor([[ 1.0323,  0.8591, -0.2135, -0.0595, -0.1758]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1066], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1387,  1.2576, -0.1347,  0.4944,  0.0062]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3680], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0061162079510703364
+pre_time_step:
+[0, 16, 33, 49, 65, 82, 98, 114, 131, 147]
+max_f_prime:
+tensor([3.0587], dtype=torch.float64)
+tensor([2.9140, 2.9228, 2.9312, 2.9395, 2.9474, 2.9551, 2.9624, 2.9695, 2.9764,
+        2.9829], dtype=torch.float64)
+tensor([2.9095, 2.9184, 2.9270, 2.9354, 2.9435, 2.9512, 2.9588, 2.9660, 2.9730,
+        2.9797], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000822, data loss0 0.000822, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.058684, penalty 0.000000,
+
+At iterate   15    f=  8.22369D-04    |proj g|=  9.17007D-04
+max_f_prime 3.054777, dt 0.006116, time_steps 327.000000,
+Parameter containing:
+tensor([[ 1.0337,  0.8594, -0.2153, -0.0628, -0.1800]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1082], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1355,  1.2565, -0.1342,  0.4959,  0.0083]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3695], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0061162079510703364
+pre_time_step:
+[0, 16, 33, 49, 65, 82, 98, 114, 131, 147]
+max_f_prime:
+tensor([3.0548], dtype=torch.float64)
+tensor([2.9051, 2.9140, 2.9226, 2.9309, 2.9390, 2.9468, 2.9543, 2.9616, 2.9685,
+        2.9752], dtype=torch.float64)
+tensor([2.9005, 2.9096, 2.9183, 2.9268, 2.9350, 2.9429, 2.9506, 2.9580, 2.9651,
+        2.9719], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000822, data loss0 0.000822, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.054782, penalty 0.000000,
+max_f_prime 3.057651, dt 0.006116, time_steps 327.000000,
+Parameter containing:
+tensor([[ 1.0327,  0.8592, -0.2140, -0.0604, -0.1769]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1070], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1378,  1.2573, -0.1346,  0.4948,  0.0068]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3684], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0061162079510703364
+pre_time_step:
+[0, 16, 33, 49, 65, 82, 98, 114, 131, 147]
+max_f_prime:
+tensor([3.0577], dtype=torch.float64)
+tensor([2.9116, 2.9204, 2.9289, 2.9371, 2.9451, 2.9528, 2.9602, 2.9674, 2.9742,
+        2.9808], dtype=torch.float64)
+tensor([2.9071, 2.9160, 2.9247, 2.9330, 2.9412, 2.9490, 2.9565, 2.9638, 2.9708,
+        2.9776], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000822, data loss0 0.000822, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.057628, penalty 0.000000,
+
+At iterate   16    f=  8.22263D-04    |proj g|=  8.36969D-04
+max_f_prime 3.055580, dt 0.006116, time_steps 327.000000,
+Parameter containing:
+tensor([[ 1.0328,  0.8591, -0.2160, -0.0626, -0.1782]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1086], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1322,  1.2577, -0.1320,  0.4975,  0.0086]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3693], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0061162079510703364
+pre_time_step:
+[0, 16, 33, 49, 65, 82, 98, 114, 131, 147]
+max_f_prime:
+tensor([3.0556], dtype=torch.float64)
+tensor([2.9017, 2.9107, 2.9195, 2.9279, 2.9361, 2.9441, 2.9517, 2.9591, 2.9662,
+        2.9730], dtype=torch.float64)
+tensor([2.8971, 2.9062, 2.9151, 2.9237, 2.9321, 2.9401, 2.9479, 2.9554, 2.9626,
+        2.9696], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000818, data loss0 0.000818, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.055545, penalty 0.000000,
+
+At iterate   17    f=  8.18056D-04    |proj g|=  5.78113D-04
+max_f_prime 3.050074, dt 0.006135, time_steps 326.000000,
+Parameter containing:
+tensor([[ 1.0276,  0.8575, -0.2245, -0.0666, -0.1716]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1141], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1019,  1.2646, -0.1150,  0.5114,  0.0144]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3711], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006134969325153374
+pre_time_step:
+[0, 16, 33, 49, 65, 82, 98, 114, 130, 147]
+max_f_prime:
+tensor([3.0501], dtype=torch.float64)
+tensor([2.8538, 2.8639, 2.8738, 2.8835, 2.8928, 2.9019, 2.9108, 2.9193, 2.9276,
+        2.9356], dtype=torch.float64)
+tensor([2.8486, 2.8589, 2.8689, 2.8787, 2.8882, 2.8974, 2.9064, 2.9151, 2.9235,
+        2.9316], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000803, data loss0 0.000803, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.050088, penalty 0.000000,
+
+At iterate   18    f=  8.02948D-04    |proj g|=  5.22752D-03
+max_f_prime 3.041021, dt 0.006154, time_steps 325.000000,
+Parameter containing:
+tensor([[ 1.0159,  0.8544, -0.2331, -0.0648, -0.1518]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1180], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0630,  1.2769, -0.0910,  0.5286,  0.0180]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3716], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.006153846153846154
+pre_time_step:
+[0, 16, 32, 49, 65, 81, 98, 114, 130, 146]
+max_f_prime:
+tensor([3.0410], dtype=torch.float64)
+tensor([2.7872, 2.7987, 2.8100, 2.8210, 2.8318, 2.8423, 2.8525, 2.8624, 2.8721,
+        2.8816], dtype=torch.float64)
+tensor([2.7813, 2.7929, 2.8044, 2.8155, 2.8264, 2.8370, 2.8474, 2.8575, 2.8673,
+        2.8769], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000759, data loss0 0.000759, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.041034, penalty 0.000000,
+
+At iterate   19    f=  7.59061D-04    |proj g|=  7.40697D-03
+max_f_prime 3.071065, dt 0.006079, time_steps 329.000000,
+Parameter containing:
+tensor([[ 0.9378,  0.8337, -0.2762, -0.0377, -0.0111]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1320], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1565,  1.3570,  0.0520,  0.6254,  0.0294]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3679], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0060790273556231
+pre_time_step:
+[0, 16, 33, 49, 66, 82, 99, 115, 132, 148]
+max_f_prime:
+tensor([3.0711], dtype=torch.float64)
+tensor([2.3962, 2.4145, 2.4327, 2.4506, 2.4684, 2.4860, 2.5033, 2.5205, 2.5375,
+        2.5542], dtype=torch.float64)
+tensor([2.3869, 2.4053, 2.4236, 2.4417, 2.4595, 2.4772, 2.4947, 2.5120, 2.5290,
+        2.5459], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000623, data loss0 0.000623, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.071038, penalty 0.000000,
+
+At iterate   20    f=  6.23214D-04    |proj g|=  1.86556D-02
+max_f_prime 3.120005, dt 0.005988, time_steps 334.000000,
+Parameter containing:
+tensor([[ 0.9037,  0.8244, -0.2850, -0.0137,  0.0598]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1281], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.2251,  1.3919,  0.1038,  0.6554,  0.0247]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3599], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005988023952095809
+pre_time_step:
+[0, 17, 33, 50, 67, 84, 100, 117, 134, 150]
+max_f_prime:
+tensor([3.1200], dtype=torch.float64)
+tensor([2.2883, 2.3086, 2.3288, 2.3488, 2.3686, 2.3883, 2.4078, 2.4271, 2.4462,
+        2.4651], dtype=torch.float64)
+tensor([2.2781, 2.2985, 2.3187, 2.3388, 2.3587, 2.3785, 2.3980, 2.4174, 2.4367,
+        2.4557], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000533, data loss0 0.000533, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.119950, penalty 0.000000,
+
+At iterate   21    f=  5.32864D-04    |proj g|=  1.93776D-02
+max_f_prime 4.020292, dt 0.004651, time_steps 430.000000,
+Parameter containing:
+tensor([[ 0.6186,  0.7506, -0.3328,  0.2113,  0.6604]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.0751], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.7335,  1.6703,  0.4994,  0.8717, -0.0360]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.2945], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.004651162790697674
+pre_time_step:
+[0, 22, 43, 65, 86, 108, 129, 151, 172, 194]
+max_f_prime:
+tensor([4.0203], dtype=torch.float64)
+tensor([1.4654, 1.4961, 1.5270, 1.5582, 1.5896, 1.6212, 1.6530, 1.6851, 1.7173,
+        1.7498], dtype=torch.float64)
+tensor([1.4501, 1.4807, 1.5115, 1.5426, 1.5738, 1.6054, 1.6371, 1.6690, 1.7012,
+        1.7335], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.001647, data loss0 0.001647, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 4.020347, penalty 0.000000,
+max_f_prime 3.269779, dt 0.005714, time_steps 350.000000,
+Parameter containing:
+tensor([[ 0.8122,  0.8007, -0.3004,  0.0586,  0.2527]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1110], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.3884,  1.4813,  0.2309,  0.7249,  0.0052]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3389], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005714285714285714
+pre_time_step:
+[0, 18, 35, 53, 70, 88, 105, 123, 140, 158]
+max_f_prime:
+tensor([3.2698], dtype=torch.float64)
+tensor([2.0209, 2.0453, 2.0696, 2.0939, 2.1181, 2.1422, 2.1662, 2.1902, 2.2140,
+        2.2377], dtype=torch.float64)
+tensor([2.0086, 2.0331, 2.0575, 2.0818, 2.1060, 2.1302, 2.1542, 2.1782, 2.2021,
+        2.2258], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000321, data loss0 0.000321, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.269785, penalty 0.000000,
+
+At iterate   22    f=  3.21406D-04    |proj g|=  1.62056D-02
+max_f_prime 3.559712, dt 0.005249, time_steps 381.000000,
+Parameter containing:
+tensor([[ 0.6308,  0.7564, -0.3340,  0.1803,  0.5920]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.0942], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.7072,  1.6338,  0.4600,  0.8536, -0.0261]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3231], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005249343832020997
+pre_time_step:
+[0, 19, 38, 57, 76, 95, 114, 133, 152, 171]
+max_f_prime:
+tensor([3.5597], dtype=torch.float64)
+tensor([1.3142, 1.3411, 1.3681, 1.3953, 1.4227, 1.4502, 1.4779, 1.5057, 1.5337,
+        1.5619], dtype=torch.float64)
+tensor([1.3009, 1.3276, 1.3546, 1.3817, 1.4090, 1.4364, 1.4640, 1.4918, 1.5197,
+        1.5478], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000382, data loss0 0.000382, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.559626, penalty 0.000000,
+max_f_prime 3.357830, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7345,  0.7817, -0.3147,  0.1107,  0.3980]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1038], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5249,  1.5466,  0.3290,  0.7800, -0.0082]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3321], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3578], dtype=torch.float64)
+tensor([1.7174, 1.7435, 1.7697, 1.7958, 1.8220, 1.8483, 1.8745, 1.9007, 1.9270,
+        1.9532], dtype=torch.float64)
+tensor([1.7043, 1.7304, 1.7566, 1.7827, 1.8089, 1.8351, 1.8614, 1.8876, 1.9138,
+        1.9401], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000196, data loss0 0.000196, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.357779, penalty 0.000000,
+
+At iterate   23    f=  1.96002D-04    |proj g|=  4.82930D-03
+max_f_prime 3.347948, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7374,  0.7826, -0.3077,  0.1170,  0.3997]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.0972], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5039,  1.5443,  0.3191,  0.7706, -0.0139]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3288], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3479], dtype=torch.float64)
+tensor([1.7895, 1.8155, 1.8416, 1.8677, 1.8938, 1.9199, 1.9459, 1.9720, 1.9980,
+        2.0241], dtype=torch.float64)
+tensor([1.7765, 1.8025, 1.8286, 1.8546, 1.8807, 1.9068, 1.9329, 1.9590, 1.9850,
+        2.0111], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000228, data loss0 0.000228, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.347973, penalty 0.000000,
+max_f_prime 3.356694, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7348,  0.7818, -0.3140,  0.1114,  0.3982]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1031], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5225,  1.5463,  0.3279,  0.7789, -0.0088]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3318], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3567], dtype=torch.float64)
+tensor([1.7256, 1.7517, 1.7778, 1.8040, 1.8302, 1.8564, 1.8826, 1.9088, 1.9350,
+        1.9612], dtype=torch.float64)
+tensor([1.7125, 1.7386, 1.7648, 1.7909, 1.8171, 1.8433, 1.8695, 1.8957, 1.9219,
+        1.9481], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000195, data loss0 0.000195, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.356643, penalty 0.000000,
+
+At iterate   24    f=  1.95074D-04    |proj g|=  3.33136D-03
+max_f_prime 3.331510, dt 0.005618, time_steps 356.000000,
+Parameter containing:
+tensor([[ 0.7394,  0.7833, -0.3109,  0.1103,  0.3904]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1017], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5094,  1.5412,  0.3190,  0.7728, -0.0099]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3326], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0056179775280898875
+pre_time_step:
+[0, 18, 36, 53, 71, 89, 107, 125, 142, 160]
+max_f_prime:
+tensor([3.3315], dtype=torch.float64)
+tensor([1.7547, 1.7805, 1.8064, 1.8323, 1.8582, 1.8840, 1.9099, 1.9358, 1.9617,
+        1.9875], dtype=torch.float64)
+tensor([1.7418, 1.7676, 1.7934, 1.8193, 1.8452, 1.8711, 1.8970, 1.9229, 1.9488,
+        1.9746], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000205, data loss0 0.000205, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.331458, penalty 0.000000,
+max_f_prime 3.354713, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7352,  0.7819, -0.3137,  0.1113,  0.3976]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1030], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5215,  1.5459,  0.3272,  0.7784, -0.0089]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3318], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3547], dtype=torch.float64)
+tensor([1.7278, 1.7539, 1.7801, 1.8062, 1.8324, 1.8586, 1.8847, 1.9109, 1.9371,
+        1.9633], dtype=torch.float64)
+tensor([1.7148, 1.7409, 1.7670, 1.7931, 1.8193, 1.8455, 1.8717, 1.8978, 1.9240,
+        1.9502], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000195, data loss0 0.000195, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.354683, penalty 0.000000,
+max_f_prime 3.339335, dt 0.005602, time_steps 357.000000,
+Parameter containing:
+tensor([[ 0.7379,  0.7828, -0.3119,  0.1107,  0.3928]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1021], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5135,  1.5428,  0.3218,  0.7747, -0.0096]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3324], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0056022408963585435
+pre_time_step:
+[0, 18, 36, 54, 71, 89, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3393], dtype=torch.float64)
+tensor([1.7456, 1.7715, 1.7975, 1.8235, 1.8495, 1.8754, 1.9014, 1.9274, 1.9534,
+        1.9794], dtype=torch.float64)
+tensor([1.7327, 1.7586, 1.7845, 1.8105, 1.8365, 1.8624, 1.8884, 1.9144, 1.9404,
+        1.9664], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000199, data loss0 0.000199, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.339293, penalty 0.000000,
+max_f_prime 3.353483, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7354,  0.7820, -0.3136,  0.1113,  0.3972]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1029], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5209,  1.5457,  0.3267,  0.7781, -0.0090]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3535], dtype=torch.float64)
+tensor([1.7293, 1.7553, 1.7814, 1.8076, 1.8337, 1.8599, 1.8861, 1.9123, 1.9384,
+        1.9646], dtype=torch.float64)
+tensor([1.7162, 1.7423, 1.7684, 1.7945, 1.8207, 1.8468, 1.8730, 1.8992, 1.9253,
+        1.9515], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000195, data loss0 0.000195, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.353466, penalty 0.000000,
+
+At iterate   25    f=  1.94579D-04    |proj g|=  2.89479D-03
+max_f_prime 3.344660, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7370,  0.7827, -0.3120,  0.1119,  0.3960]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1015], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5162,  1.5442,  0.3238,  0.7759, -0.0098]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3321], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3447], dtype=torch.float64)
+tensor([1.7442, 1.7701, 1.7961, 1.8221, 1.8482, 1.8742, 1.9003, 1.9263, 1.9523,
+        1.9784], dtype=torch.float64)
+tensor([1.7312, 1.7571, 1.7831, 1.8091, 1.8352, 1.8612, 1.8872, 1.9133, 1.9393,
+        1.9653], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000204, data loss0 0.000204, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.344634, penalty 0.000000,
+max_f_prime 3.353021, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7355,  0.7820, -0.3135,  0.1113,  0.3971]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1028], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5206,  1.5456,  0.3266,  0.7780, -0.0090]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3530], dtype=torch.float64)
+tensor([1.7300, 1.7561, 1.7822, 1.8083, 1.8345, 1.8606, 1.8868, 1.9130, 1.9391,
+        1.9653], dtype=torch.float64)
+tensor([1.7170, 1.7431, 1.7692, 1.7953, 1.8214, 1.8476, 1.8737, 1.8999, 1.9261,
+        1.9522], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.353010, penalty 0.000000,
+max_f_prime 3.347472, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7365,  0.7825, -0.3125,  0.1117,  0.3964]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1019], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5177,  1.5447,  0.3248,  0.7766, -0.0096]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3320], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3475], dtype=torch.float64)
+tensor([1.7394, 1.7654, 1.7914, 1.8175, 1.8435, 1.8696, 1.8957, 1.9218, 1.9479,
+        1.9739], dtype=torch.float64)
+tensor([1.7264, 1.7524, 1.7784, 1.8044, 1.8305, 1.8566, 1.8827, 1.9087, 1.9348,
+        1.9609], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000202, data loss0 0.000202, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.347488, penalty 0.000000,
+max_f_prime 3.352817, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7355,  0.7821, -0.3135,  0.1113,  0.3971]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1028], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5205,  1.5456,  0.3265,  0.7780, -0.0090]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3528], dtype=torch.float64)
+tensor([1.7304, 1.7564, 1.7825, 1.8087, 1.8348, 1.8610, 1.8871, 1.9133, 1.9395,
+        1.9656], dtype=torch.float64)
+tensor([1.7174, 1.7434, 1.7695, 1.7956, 1.8217, 1.8479, 1.8741, 1.9002, 1.9264,
+        1.9525], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.352810, penalty 0.000000,
+max_f_prime 3.349257, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7362,  0.7823, -0.3128,  0.1116,  0.3966]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1022], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5187,  1.5450,  0.3254,  0.7771, -0.0094]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3320], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3493], dtype=torch.float64)
+tensor([1.7363, 1.7623, 1.7884, 1.8145, 1.8406, 1.8667, 1.8928, 1.9189, 1.9450,
+        1.9711], dtype=torch.float64)
+tensor([1.7233, 1.7493, 1.7754, 1.8014, 1.8275, 1.8536, 1.8797, 1.9059, 1.9320,
+        1.9581], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000202, data loss0 0.000202, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.349300, penalty 0.000000,
+max_f_prime 3.352727, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7355,  0.7821, -0.3134,  0.1113,  0.3971]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1028], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5205,  1.5456,  0.3265,  0.7779, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3527], dtype=torch.float64)
+tensor([1.7305, 1.7566, 1.7827, 1.8088, 1.8350, 1.8611, 1.8873, 1.9134, 1.9396,
+        1.9658], dtype=torch.float64)
+tensor([1.7175, 1.7436, 1.7696, 1.7958, 1.8219, 1.8480, 1.8742, 1.9004, 1.9265,
+        1.9527], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.352721, penalty 0.000000,
+max_f_prime 3.350436, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7360,  0.7822, -0.3130,  0.1115,  0.3968]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1024], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5193,  1.5452,  0.3257,  0.7774, -0.0093]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3504], dtype=torch.float64)
+tensor([1.7344, 1.7604, 1.7865, 1.8126, 1.8387, 1.8648, 1.8909, 1.9171, 1.9432,
+        1.9693], dtype=torch.float64)
+tensor([1.7213, 1.7474, 1.7734, 1.7995, 1.8256, 1.8517, 1.8779, 1.9040, 1.9301,
+        1.9562], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.350465, penalty 0.000000,
+max_f_prime 3.352688, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7356,  0.7821, -0.3134,  0.1113,  0.3971]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1028], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5205,  1.5456,  0.3265,  0.7779, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3527], dtype=torch.float64)
+tensor([1.7306, 1.7567, 1.7828, 1.8089, 1.8350, 1.8612, 1.8873, 1.9135, 1.9397,
+        1.9658], dtype=torch.float64)
+tensor([1.7176, 1.7436, 1.7697, 1.7958, 1.8220, 1.8481, 1.8743, 1.9004, 1.9266,
+        1.9527], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.352683, penalty 0.000000,
+max_f_prime 3.351202, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7358,  0.7822, -0.3132,  0.1114,  0.3969]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5197,  1.5453,  0.3260,  0.7776, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3512], dtype=torch.float64)
+tensor([1.7331, 1.7591, 1.7852, 1.8113, 1.8374, 1.8636, 1.8897, 1.9159, 1.9420,
+        1.9681], dtype=torch.float64)
+tensor([1.7201, 1.7461, 1.7722, 1.7983, 1.8244, 1.8505, 1.8766, 1.9028, 1.9289,
+        1.9551], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351219, penalty 0.000000,
+max_f_prime 3.352671, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7356,  0.7821, -0.3134,  0.1113,  0.3971]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1028], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5204,  1.5456,  0.3265,  0.7779, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3527], dtype=torch.float64)
+tensor([1.7306, 1.7567, 1.7828, 1.8089, 1.8351, 1.8612, 1.8874, 1.9135, 1.9397,
+        1.9658], dtype=torch.float64)
+tensor([1.7176, 1.7437, 1.7697, 1.7958, 1.8220, 1.8481, 1.8743, 1.9005, 1.9266,
+        1.9528], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.352666, penalty 0.000000,
+max_f_prime 3.351702, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351711, penalty 0.000000,
+
+At iterate   26    f=  1.94257D-04    |proj g|=  2.20410D-03
+max_f_prime 3.340839, dt 0.005602, time_steps 357.000000,
+Parameter containing:
+tensor([[ 0.7379,  0.7831, -0.3117,  0.1115,  0.3944]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1016], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5147,  1.5433,  0.3226,  0.7751, -0.0098]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3325], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0056022408963585435
+pre_time_step:
+[0, 18, 36, 54, 71, 89, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3408], dtype=torch.float64)
+tensor([1.7466, 1.7726, 1.7985, 1.8245, 1.8505, 1.8764, 1.9024, 1.9284, 1.9544,
+        1.9804], dtype=torch.float64)
+tensor([1.7337, 1.7596, 1.7855, 1.8115, 1.8375, 1.8635, 1.8894, 1.9154, 1.9414,
+        1.9674], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000200, data loss0 0.000200, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.340796, penalty 0.000000,
+max_f_prime 3.351121, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7358,  0.7822, -0.3132,  0.1114,  0.3968]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5197,  1.5453,  0.3260,  0.7775, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3511], dtype=torch.float64)
+tensor([1.7330, 1.7590, 1.7851, 1.8112, 1.8374, 1.8635, 1.8896, 1.9158, 1.9419,
+        1.9680], dtype=torch.float64)
+tensor([1.7200, 1.7460, 1.7721, 1.7982, 1.8243, 1.8504, 1.8766, 1.9027, 1.9288,
+        1.9550], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351137, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351710, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351410, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7358,  0.7822, -0.3132,  0.1114,  0.3969]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5198,  1.5453,  0.3261,  0.7776, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3514], dtype=torch.float64)
+tensor([1.7326, 1.7587, 1.7848, 1.8109, 1.8370, 1.8631, 1.8893, 1.9154, 1.9416,
+        1.9677], dtype=torch.float64)
+tensor([1.7196, 1.7456, 1.7717, 1.7978, 1.8239, 1.8501, 1.8762, 1.9023, 1.9285,
+        1.9546], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351423, penalty 0.000000,
+max_f_prime 3.351699, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+
+At iterate   27    f=  1.94257D-04    |proj g|=  2.20367D-03
+max_f_prime 3.341602, dt 0.005602, time_steps 357.000000,
+Parameter containing:
+tensor([[ 0.7381,  0.7832, -0.3116,  0.1116,  0.3948]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1015], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5152,  1.5434,  0.3228,  0.7753, -0.0097]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3326], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0056022408963585435
+pre_time_step:
+[0, 18, 36, 54, 71, 89, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3416], dtype=torch.float64)
+tensor([1.7468, 1.7727, 1.7986, 1.8246, 1.8506, 1.8766, 1.9026, 1.9286, 1.9545,
+        1.9805], dtype=torch.float64)
+tensor([1.7338, 1.7597, 1.7857, 1.8116, 1.8376, 1.8636, 1.8896, 1.9156, 1.9416,
+        1.9675], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000200, data loss0 0.000200, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.341562, penalty 0.000000,
+max_f_prime 3.351145, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7359,  0.7822, -0.3132,  0.1114,  0.3968]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5197,  1.5453,  0.3260,  0.7776, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3511], dtype=torch.float64)
+tensor([1.7330, 1.7591, 1.7852, 1.8113, 1.8374, 1.8635, 1.8897, 1.9158, 1.9419,
+        1.9681], dtype=torch.float64)
+tensor([1.7200, 1.7461, 1.7721, 1.7982, 1.8243, 1.8505, 1.8766, 1.9027, 1.9289,
+        1.9550], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351161, penalty 0.000000,
+max_f_prime 3.351698, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351708, penalty 0.000000,
+max_f_prime 3.351699, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+
+At iterate   28    f=  1.94257D-04    |proj g|=  2.20367D-03
+  ys=-8.889E-19  -gs= 6.527E-13 BFGS update SKIPPED
+max_f_prime 3.341602, dt 0.005602, time_steps 357.000000,
+Parameter containing:
+tensor([[ 0.7381,  0.7832, -0.3116,  0.1116,  0.3948]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1015], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5152,  1.5434,  0.3228,  0.7753, -0.0097]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3326], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0056022408963585435
+pre_time_step:
+[0, 18, 36, 54, 71, 89, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3416], dtype=torch.float64)
+tensor([1.7468, 1.7727, 1.7986, 1.8246, 1.8506, 1.8766, 1.9026, 1.9286, 1.9545,
+        1.9805], dtype=torch.float64)
+tensor([1.7338, 1.7597, 1.7857, 1.8116, 1.8376, 1.8636, 1.8896, 1.9156, 1.9416,
+        1.9675], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000200, data loss0 0.000200, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.341562, penalty 0.000000,
+max_f_prime 3.351145, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7359,  0.7822, -0.3132,  0.1114,  0.3968]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5197,  1.5453,  0.3260,  0.7776, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3511], dtype=torch.float64)
+tensor([1.7330, 1.7591, 1.7852, 1.8113, 1.8374, 1.8635, 1.8897, 1.9158, 1.9419,
+        1.9681], dtype=torch.float64)
+tensor([1.7200, 1.7461, 1.7721, 1.7982, 1.8243, 1.8505, 1.8766, 1.9027, 1.9289,
+        1.9550], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351161, penalty 0.000000,
+max_f_prime 3.351698, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351708, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+max_f_prime 3.351700, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351709, penalty 0.000000,
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+max_f_prime 3.333933, dt 0.005602, time_steps 357.000000,
+Parameter containing:
+tensor([[ 0.7355,  0.7818, -0.3136,  0.1112,  0.3969]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1004], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5196,  1.5456,  0.3263,  0.7778, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3331], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.0056022408963585435
+pre_time_step:
+[0, 18, 36, 54, 71, 89, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3339], dtype=torch.float64)
+tensor([1.7377, 1.7636, 1.7894, 1.8153, 1.8412, 1.8672, 1.8931, 1.9190, 1.9449,
+        1.9708], dtype=torch.float64)
+tensor([1.7248, 1.7506, 1.7765, 1.8024, 1.8283, 1.8542, 1.8801, 1.9060, 1.9320,
+        1.9579], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000225, data loss0 0.000225, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.333926, penalty 0.000000,
+max_f_prime 3.350814, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3969]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1025], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3320], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3508], dtype=torch.float64)
+tensor([1.7325, 1.7586, 1.7846, 1.8107, 1.8369, 1.8630, 1.8891, 1.9153, 1.9414,
+        1.9675], dtype=torch.float64)
+tensor([1.7195, 1.7455, 1.7716, 1.7977, 1.8238, 1.8499, 1.8761, 1.9022, 1.9283,
+        1.9545], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.350827, penalty 0.000000,
+max_f_prime 3.351693, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351702, penalty 0.000000,
+max_f_prime 3.351112, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3969]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3320], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3511], dtype=torch.float64)
+tensor([1.7324, 1.7585, 1.7846, 1.8107, 1.8368, 1.8629, 1.8891, 1.9152, 1.9413,
+        1.9675], dtype=torch.float64)
+tensor([1.7194, 1.7454, 1.7715, 1.7976, 1.8237, 1.8498, 1.8760, 1.9021, 1.9283,
+        1.9544], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351125, penalty 0.000000,
+max_f_prime 3.351690, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351699, penalty 0.000000,
+max_f_prime 3.351309, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3969]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3513], dtype=torch.float64)
+tensor([1.7324, 1.7584, 1.7845, 1.8106, 1.8367, 1.8629, 1.8890, 1.9152, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7194, 1.7454, 1.7715, 1.7975, 1.8237, 1.8498, 1.8759, 1.9021, 1.9282,
+        1.9544], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351320, penalty 0.000000,
+max_f_prime 3.351688, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351698, penalty 0.000000,
+max_f_prime 3.351438, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3514], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9021, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351449, penalty 0.000000,
+max_f_prime 3.351688, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3517], dtype=torch.float64)
+tensor([1.7322, 1.7583, 1.7844, 1.8105, 1.8366, 1.8628, 1.8889, 1.9151, 1.9412,
+        1.9673], dtype=torch.float64)
+tensor([1.7192, 1.7453, 1.7713, 1.7974, 1.8236, 1.8497, 1.8758, 1.9020, 1.9281,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351697, penalty 0.000000,
+max_f_prime 3.351523, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7844, 1.8105, 1.8367, 1.8628, 1.8890, 1.9151, 1.9412,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8497, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351533, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351448, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3514], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9021, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351459, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+
+At iterate   29    f=  1.94227D-04    |proj g|=  2.05009D-03
+max_f_prime 3.348210, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1022], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3322], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3482], dtype=torch.float64)
+tensor([1.7333, 1.7593, 1.7853, 1.8114, 1.8375, 1.8636, 1.8897, 1.9158, 1.9419,
+        1.9680], dtype=torch.float64)
+tensor([1.7203, 1.7463, 1.7723, 1.7984, 1.8245, 1.8505, 1.8767, 1.9028, 1.9289,
+        1.9550], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000204, data loss0 0.000204, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.348236, penalty 0.000000,
+max_f_prime 3.351402, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3514], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7454, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9021, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351413, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351434, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3514], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9021, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351445, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351450, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351461, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+
+At iterate   30    f=  1.94227D-04    |proj g|=  2.05007D-03
+max_f_prime 3.348870, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7358,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1019], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0091]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3321], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3489], dtype=torch.float64)
+tensor([1.7354, 1.7614, 1.7874, 1.8135, 1.8396, 1.8657, 1.8918, 1.9179, 1.9440,
+        1.9701], dtype=torch.float64)
+tensor([1.7224, 1.7484, 1.7744, 1.8004, 1.8265, 1.8526, 1.8787, 1.9048, 1.9309,
+        1.9570], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000206, data loss0 0.000206, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.348911, penalty 0.000000,
+max_f_prime 3.351402, dt 0.005587, time_steps 358.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.00558659217877095
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 107, 125, 143, 161]
+max_f_prime:
+tensor([3.3514], dtype=torch.float64)
+tensor([1.7324, 1.7584, 1.7845, 1.8106, 1.8368, 1.8629, 1.8890, 1.9152, 1.9413,
+        1.9675], dtype=torch.float64)
+tensor([1.7194, 1.7454, 1.7715, 1.7976, 1.8237, 1.8498, 1.8760, 1.9021, 1.9283,
+        1.9544], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000201, data loss0 0.000201, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351414, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+max_f_prime 3.351467, dt 0.005571, time_steps 359.000000,
+Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 18, 35, 53, 71, 88, 106, 124, 142, 159]
+dt
+0.005571030640668524
+pre_time_step:
+[0, 18, 36, 54, 72, 90, 108, 126, 144, 162]
+max_f_prime:
+tensor([3.3515], dtype=torch.float64)
+tensor([1.7323, 1.7584, 1.7845, 1.8106, 1.8367, 1.8628, 1.8890, 1.9151, 1.9413,
+        1.9674], dtype=torch.float64)
+tensor([1.7193, 1.7453, 1.7714, 1.7975, 1.8236, 1.8498, 1.8759, 1.9020, 1.9282,
+        1.9543], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.000194, data loss0 0.000194, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 3.351477, penalty 0.000000,
+
+ Warning:  more than 10 function and gradient
+   evaluations in the last line search.  Termination
+   may possibly be caused by a bad search direction.
+Traceback (most recent call last):
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param\version_3\beta_200_poly\learn_function_1d.py", line 111, in <module>
+    printcoeffs()
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param\version_3\beta_200_poly\learn_function_1d.py", line 95, in printcoeffs
+    tsym_0, csym_0, tsym_1, csym_1 = poly.coeffs()
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param\version_3\beta_200_poly\expr.py", line 155, in coeffs
+    o_molecular, o_denominator = self.expression(calprec, eng=None, isexpand=True)
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param\version_3\beta_200_poly\expr.py", line 106, in expression
+    o = weight*channels.transpose()+bias
+  File "C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\sympy\core\decorators.py", line 106, in binary_op_wrapper
+    return func(self, other)
+  File "C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\sympy\matrices\common.py", line 2771, in __mul__
+    return self.multiply(other)
+  File "C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\sympy\matrices\common.py", line 2793, in multiply
+    raise ShapeError("Matrix size mismatch: %s * %s." % (
+sympy.matrices.common.ShapeError: Matrix size mismatch: (1, 5) * (1, 1).
+
+At iterate   31    f=  1.94227D-04    |proj g|=  2.05007D-03
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+   12     31    141      2     1     0   2.050D-03   1.942D-04
+  F =  1.942265371326357E-004
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+poly0.molecular.weight : Parameter containing:
+tensor([[ 0.7357,  0.7821, -0.3133,  0.1114,  0.3970]], dtype=torch.float64,
+       requires_grad=True)
+poly0.molecular.bias : Parameter containing:
+tensor([-0.1026], dtype=torch.float64, requires_grad=True)
+poly0.denominator.weight : Parameter containing:
+tensor([[-0.5199,  1.5454,  0.3262,  0.7777, -0.0092]], dtype=torch.float64,
+       requires_grad=True)
+poly0.denominator.bias : Parameter containing:
+tensor([0.3319], dtype=torch.float64, requires_grad=True)
+
+Process finished with exit code 1

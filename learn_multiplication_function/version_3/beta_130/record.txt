@@ -1,0 +1,60 @@
+(1)N_400_example_6_dt_0.1_layer_10_beta_130
+max_f_prime 2.662174, dt 0.007018, time_steps 285.000000,
+
+(2) 初始值的设定
+(1)
+batch_size = 6
+u_0_np = np.zeros((batch_size, N), dtype=float)
+u_0_np[:1, 180:240] = 1.0
+u_0_np[:1, 0:180] = 0.3
+u_0_np[:1, 240:400] = 0.3
+u_0_np[1:2, 200:260] = 0.8
+u_0_np[1:2, 0:200] = 0.2
+u_0_np[1:2, 260:400] = 0.2
+u_0_np[2:3, 160:280] = 0.85
+u_0_np[3:4, 0:120] = 0.95
+u_0_np[4:5, 120:240] = 0.7
+u_0_np[5:6, 140:200] = 0.9
+u_0 = torch.from_numpy(u_0_np)
+u_0 = u_0.to(device)
+
+batch_size = 8
+u_0_np = np.zeros((batch_size, N), dtype=float)
+u_0_np[:1, 180:240] = 1.0
+u_0_np[:1, 0:180] = 0.3
+u_0_np[:1, 240:400] = 0.3
+u_0_np[1:2, 200:260] = 0.8
+u_0_np[1:2, 0:200] = 0.2
+u_0_np[1:2, 260:400] = 0.2
+u_0_np[2:3, 160:280] = 0.85
+u_0_np[3:4, 0:120] = 0.95
+u_0_np[4:5, 120:240] = 0.7
+u_0_np[5:6, 140:200] = 0.9
+u_0_np[6:7, 140:200] = 0.6
+u_0_np[7:8, 140:200] = 0.4
+u_0 = torch.from_numpy(u_0_np)
+u_0 = u_0.to(device)
+
+batch_size = 9
+u_0_np = np.zeros((batch_size, N), dtype=float)
+u_0_np[:1, 180:240] = 1.0
+u_0_np[:1, 0:180] = 0.3
+u_0_np[:1, 240:400] = 0.3
+u_0_np[1:2, 200:260] = 0.8
+u_0_np[1:2, 0:200] = 0.2
+u_0_np[1:2, 260:400] = 0.2
+u_0_np[2:3, 160:280] = 0.85
+u_0_np[3:4, 0:120] = 0.95
+u_0_np[4:5, 120:240] = 0.7
+u_0_np[5:6, 140:200] = 0.9
+u_0_np[6:7, 140:200] = 0.6
+u_0_np[7:8, 140:200] = 0.4
+u_0_np[8:9, 140:200] = 0.35
+u_0 = torch.from_numpy(u_0_np)
+u_0 = u_0.to(device)
+
+
+尝试过去掉负数， 但是后来发现这是不可能的，这是local numerical scheme 本身的特性决定的。
+尝试的时候是用 f_half[:, index] = 0.5 * (f[:, index] + f[:, index + 1]) - 0.5 * torch.max(dfdu) * (u[:, index + 1] - u[:, index]) 来替换
+f_half[:, index] = 0.5 * (f[:, index] + f[:, index + 1]) - 0.5 * torch.max(dfdu, 1).values * (u[:, index + 1] - u[:, index])
+后来觉得还是各自用各自的比较好。

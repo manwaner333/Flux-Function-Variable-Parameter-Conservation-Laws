@@ -1,0 +1,190 @@
+三、np_power = 8
+Parameter containing:
+tensor([[ 0.0130, -0.0650, -0.2105,  0.3674,  0.5193, -0.2884, -1.1686, -1.1012,
+          1.5198,  0.0103,  0.1247, -0.5446,  0.1668,  1.0928,  1.0850,  0.3070,
+         -0.7987, -0.1388]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0994,  0.3195, -0.1548,  0.1282,  0.0637, -0.0691,  0.0558,  0.0547,
+         -0.1635, -0.0173,  0.0482,  0.2313,  0.2386,  0.2640,  0.2238,  0.3241,
+          0.3282,  0.2853]], dtype=torch.float64, requires_grad=True)
+
+二、np_power = 7
+Parameter containing:
+tensor([[ 2.0186e-03, -2.7385e-01,  6.2890e-01,  8.1496e-01,  4.8249e-01,
+          2.6319e-01,  4.2647e-01,  3.6353e-01,  1.7418e-03, -2.7153e-01,
+          7.1917e-01,  5.8939e-01,  4.2922e-01,  4.8542e-01,  7.7713e-01,
+          2.5290e+00]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1957, -0.0662, -0.2097,  0.3567,  1.1306,  1.2071,  0.5605, -0.4939,
+          0.2221, -0.1961,  0.0075,  0.4640,  0.5360,  1.2053,  1.5773,  1.4108]],
+       dtype=torch.float64, requires_grad=True)
+
+一 、 np_power = 6
+学习出来的系数：
+Parameter containing:
+tensor([[-7.0699e-04,  1.0301e-01, -1.2928e+00, -1.0959e+00, -2.8249e-01,
+         -3.5936e+00, -7.7790e+00,  1.4742e-04,  3.7239e-02,  2.4613e-01,
+          4.2619e-01, -2.4086e+00,  3.4410e+00, -3.0852e+00]],
+       dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6457e-01,  1.3283e-01, -1.2820e-01, -1.7147e+00, -1.6430e+00,
+         -2.1634e+00, -8.1376e+00,  2.6369e-03, -9.7678e-02,  4.7533e-01,
+         -6.4356e-01,  7.3440e-02,  1.4473e+00, -2.6043e+00]],
+       dtype=torch.float64, requires_grad=True)
+
+
+
+二、np_power = 5
+学习出来的系数
+Parameter containing:
+tensor([[ 2.9257e-04, -6.0451e-02,  8.5192e-01, -1.1258e-01,  3.8009e-01,
+          1.9196e+00, -1.1714e-04, -2.1085e-02, -1.8447e-01,  2.6088e-01,
+          7.7523e-02,  9.9530e-02]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.7557e-01, -3.1120e-01,  4.8654e-01,  5.0932e-01,  4.0039e-01,
+          1.7099e+00, -1.6422e-03,  4.8316e-02, -1.8631e-01,  6.4508e-02,
+          1.8323e-01,  1.2594e-01]], dtype=torch.float64, requires_grad=True)
+
+
+三、np_power = 4
+学习出来的系数
+Parameter containing:
+tensor([[1.4001e-03, -2.2150e-01,  3.1953e+00, -2.2674e+00,  4.6245e+00,
+                  -6.2421e-05, -1.0880e-01, -3.2954e-01,  2.8313e-01,  9.3187e-01]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.1315e-01, -1.1811e+00,  1.4468e+00,  1.9004e+00,  2.5291e+00,
+         1.2177e-02,  2.6833e-04, -9.8689e-02, -6.5726e-01,  1.5263e+00], dtype=torch.float64, requires_grad=True)
+
+
+C:\Users\47486\anaconda3\python.exe C:/Users/47486/Documents/Code/ConsLawNet1/learn_division_function_update_numerical_scheme_with_param/version_3/function_2/prediction.py
+is_real
+True
+beta -5.000000, power_nb 4.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta -5.000000, power_nb 4.000000, max_f_prime 4.194723, dt 0.004464, time_steps 448.000000,
+U
+torch.Size([448, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 4.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 4.000000, max_f_prime 5.989674, dt 0.003125, time_steps 640.000000,
+U
+torch.Size([640, 4, 400])
+is_real
+True
+beta -5.000000, power_nb 5.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta -5.000000, power_nb 5.000000, max_f_prime 4.434850, dt 0.004219, time_steps 474.000000,
+U
+torch.Size([474, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 5.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 5.000000, max_f_prime 5.888351, dt 0.003180, time_steps 629.000000,
+U
+torch.Size([629, 4, 400])
+is_real
+True
+beta -5.000000, power_nb 6.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta -5.000000, power_nb 6.000000, max_f_prime 4.362130, dt 0.004292, time_steps 466.000000,
+U
+torch.Size([466, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 6.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 6.000000, max_f_prime 5.867180, dt 0.003190, time_steps 627.000000,
+U
+torch.Size([627, 4, 400])
+is_real
+True
+beta -5.000000, power_nb 7.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta -5.000000, power_nb 7.000000, max_f_prime 3.527157, dt 0.005305, time_steps 377.000000,
+U
+torch.Size([377, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 7.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 7.000000, max_f_prime 3.513011, dt 0.005319, time_steps 376.000000,
+U
+torch.Size([376, 4, 400])
+is_real
+True
+beta -5.000000, power_nb 8.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta -5.000000, power_nb 8.000000, max_f_prime 71.533562, dt 0.000262, time_steps 7631.000000,
+U
+torch.Size([7631, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 8.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+
+is_real
+True
+beta -7.000000, power_nb 6.000000, max_f_prime 5.641213, dt 0.003317, time_steps 603.000000,
+U
+torch.Size([603, 4, 400])
+is_real
+False
+beta -7.000000, power_nb 6.000000, max_f_prime 5.219987, dt 0.003584, time_steps 558.000000,
+U
+torch.Size([558, 4, 400])
+
+Process finished with exit code 0
+
+
+
+C:\Users\47486\anaconda3\python.exe C:/Users/47486/Documents/Code/ConsLawNet1/learn_division_function_update_numerical_scheme_with_param/version_3/function_2/plot.py
+beta -5.000000, power_nb 4.000000,
+tensor(0.0007)
+beta 9.000000, power_nb 4.000000,
+tensor(0.0008)
+beta -5.000000, power_nb 5.000000,
+tensor(0.0004)
+beta 9.000000, power_nb 5.000000,
+tensor(0.0006)
+beta -5.000000, power_nb 6.000000,
+tensor(0.0004)
+beta 9.000000, power_nb 6.000000,
+tensor(0.0006)
+beta -5.000000, power_nb 7.000000,
+tensor(0.0259)
+beta 9.000000, power_nb 7.000000,
+tensor(0.0167)
+
+Process finished with exit code 0
+

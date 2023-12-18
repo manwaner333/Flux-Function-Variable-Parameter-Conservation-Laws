@@ -1,0 +1,276 @@
+一. power_nb = 8
+Parameter containing:
+tensor([[ 0.0297, -0.2006, -0.2684,  0.0892,  0.2973, -0.1894, -0.7679, -0.8349,
+          0.7015,  0.0093,  0.1088, -0.5055, -0.1162,  0.6518,  0.8877,  0.6654,
+         -0.1231, -0.7964]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1775,  0.1747, -0.2943, -0.0108, -0.0834, -0.2282, -0.1190, -0.1271,
+         -0.3280, -0.0847, -0.0100,  0.1639,  0.1523,  0.1541,  0.0890,  0.1646,
+          0.1449,  0.0945]], dtype=torch.float64, requires_grad=True)
+
+二、power_nb = 7
+Parameter containing:
+tensor([[ 2.3122e-03, -2.3222e-01,  5.6972e-01,  5.9203e-01,  1.9172e-01,
+         -5.7805e-03,  2.4819e-01,  4.0770e-01,  1.4875e-03, -2.2347e-01,
+          6.3686e-01,  4.2491e-01,  2.1280e-01,  2.4168e-01,  4.2672e-01,
+          1.8061e+00]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1497, -0.0508, -0.1466,  0.2429,  0.7619,  0.7545,  0.3501, -0.3188,
+          0.1725, -0.1388, -0.0269,  0.3828,  0.3654,  0.8305,  0.9993,  0.9177]],
+       dtype=torch.float64, requires_grad=True)
+
+三. power_nb = 6
+epoch = 200001
+Parameter containing:
+tensor([[-1.0576e-04,  7.5558e-02, -1.0244e+00, -1.9297e+00, -5.9324e-01,
+         -2.3938e+00, -6.2811e+00,  1.3493e-04,  3.4689e-02,  2.9521e-01,
+          2.3521e-01, -2.0846e+00,  3.6366e+00, -3.9278e+00]],
+       dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6781e-01,  1.2768e-01, -1.3753e-01, -1.8251e+00, -2.0590e+00,
+         -2.0732e+00, -5.8860e+00,  3.4488e-03, -1.0833e-01,  5.1076e-01,
+         -7.2418e-01,  2.4712e-01,  1.6778e+00, -3.4164e+00]],
+       dtype=torch.float64, requires_grad=True)
+
+epoch = 300001
+Parameter containing:
+tensor([[-7.0699e-04,  1.0301e-01, -1.2928e+00, -1.0959e+00, -2.8249e-01,
+         -3.5936e+00, -7.7790e+00,  1.4742e-04,  3.7239e-02,  2.4613e-01,
+          4.2619e-01, -2.4086e+00,  3.4410e+00, -3.0852e+00]],
+       dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6457e-01,  1.3283e-01, -1.2820e-01, -1.7147e+00, -1.6430e+00,
+         -2.1634e+00, -8.1376e+00,  2.6369e-03, -9.7678e-02,  4.7533e-01,
+         -6.4356e-01,  7.3440e-02,  1.4473e+00, -2.6043e+00]],
+       dtype=torch.float64, requires_grad=True)
+
+四. power_nb = 5
+epoch = 200001
+Parameter containing:
+tensor([[ 3.5134e-04, -5.9416e-02,  8.2195e-01, -2.6555e-02,  2.2711e-01,
+          1.6549e+00, -1.2512e-04, -2.1414e-02, -1.7611e-01,  2.6334e-01,
+          3.4389e-02,  1.4773e-01]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.7094e-01, -2.9890e-01,  4.5320e-01,  5.2147e-01,  4.1287e-01,
+          1.3492e+00, -3.9574e-04,  3.8202e-02, -1.6535e-01,  7.1033e-02,
+          1.2314e-01,  1.8307e-01]], dtype=torch.float64, requires_grad=True)
+
+epoch = 300001
+学习出来的系数
+Parameter containing:
+tensor([[ 2.9257e-04, -6.0451e-02,  8.5192e-01, -1.1258e-01,  3.8009e-01,
+          1.9196e+00, -1.1714e-04, -2.1085e-02, -1.8447e-01,  2.6088e-01,
+          7.7523e-02,  9.9530e-02]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.7557e-01, -3.1120e-01,  4.8654e-01,  5.0932e-01,  4.0039e-01,
+          1.7099e+00, -1.6422e-03,  4.8316e-02, -1.8631e-01,  6.4508e-02,
+          1.8323e-01,  1.2594e-01]], dtype=torch.float64, requires_grad=True)
+
+
+五. power_nb = 4
+epoch = 200001
+Parameter containing:
+tensor([[-0.0541, -0.0706,  1.1108,  0.7579, -1.0867, -0.0565,  0.0473,  0.1767,
+         -0.3883, -0.0614]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1814,  0.2869,  0.2316,  0.1915,  0.0812,  0.1917, -0.1004, -0.0532,
+          0.0145, -0.0766]], dtype=torch.float64, requires_grad=True)
+
+epoch = 300001
+学习出来的系数
+Parameter containing:
+tensor([[1.4001e-03, -2.2150e-01,  3.1953e+00, -2.2674e+00,  4.6245e+00,
+                  -6.2421e-05, -1.0880e-01, -3.2954e-01,  2.8313e-01,  9.3187e-01]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.1315e-01, -1.1811e+00,  1.4468e+00,  1.9004e+00,  2.5291e+00,
+         1.2177e-02,  2.6833e-04, -9.8689e-02, -6.5726e-01,  1.5263e+00], dtype=torch.float64, requires_grad=True)
+
+六. power_nb = 3
+Parameter containing:
+tensor([[ 0.0074, -0.3308,  1.1144, -0.1477,  0.0072, -0.3240,  1.0923, -0.0537]],
+       dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.1489, -0.1299, -0.0212,  0.6736,  0.1567, -0.1505, -0.0136,  0.7577]],
+       dtype=torch.float64, requires_grad=True)
+
+
+is_real
+True
+beta -3.000000, power_nb 3.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 3.000000, max_f_prime 3.191079, dt 0.005865, time_steps 341.000000,
+U
+torch.Size([341, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 3.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 3.000000, max_f_prime 3.378546, dt 0.005540, time_steps 361.000000,
+
+C:\Users\47486\anaconda3\python.exe C:/Users/47486/Documents/Code/ConsLawNet1/learn_division_function_update_numerical_scheme_with_param/version_3/function_2/prediction.py
+is_real
+True
+beta -3.000000, power_nb 4.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 4.000000, max_f_prime 3.558630, dt 0.005249, time_steps 381.000000,
+U
+torch.Size([381, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 4.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 4.000000, max_f_prime 3.108312, dt 0.006006, time_steps 333.000000,
+U
+torch.Size([333, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 4.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 4.000000, max_f_prime 5.989674, dt 0.003125, time_steps 640.000000,
+U
+torch.Size([640, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 5.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 5.000000, max_f_prime 3.661343, dt 0.005102, time_steps 392.000000,
+U
+torch.Size([392, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 5.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 5.000000, max_f_prime 3.118977, dt 0.005988, time_steps 334.000000,
+U
+torch.Size([334, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 5.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 5.000000, max_f_prime 5.888351, dt 0.003180, time_steps 629.000000,
+U
+torch.Size([629, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 6.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 6.000000, max_f_prime 3.633573, dt 0.005141, time_steps 389.000000,
+U
+torch.Size([389, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 6.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 6.000000, max_f_prime 3.116607, dt 0.006006, time_steps 333.000000,
+U
+torch.Size([333, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 6.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 6.000000, max_f_prime 5.867180, dt 0.003190, time_steps 627.000000,
+U
+torch.Size([627, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 7.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 7.000000, max_f_prime 3.469989, dt 0.005391, time_steps 371.000000,
+U
+torch.Size([371, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 7.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 7.000000, max_f_prime 3.143178, dt 0.005952, time_steps 336.000000,
+U
+torch.Size([336, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 7.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 7.000000, max_f_prime 3.467276, dt 0.005391, time_steps 371.000000,
+U
+torch.Size([371, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 8.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+
+beta -3.000000, power_nb 3.000000,
+tensor(0.0210)
+beta -1.000000, power_nb 3.000000,
+tensor(0.0004)
+beta 9.000000, power_nb 3.000000,
+tensor(0.0146)
+
+beta -3.000000, power_nb 4.000000,
+tensor(0.0003)
+beta -1.000000, power_nb 4.000000,
+tensor(6.9941e-05)
+beta 9.000000, power_nb 4.000000,
+tensor(0.0008)
+
+beta -3.000000, power_nb 5.000000,
+tensor(0.0002)
+beta -1.000000, power_nb 5.000000,
+tensor(8.0012e-05)
+beta 9.000000, power_nb 5.000000,
+tensor(0.0006)
+
+beta -3.000000, power_nb 6.000000,
+tensor(0.0002)
+beta -1.000000, power_nb 6.000000,
+tensor(7.3611e-05)
+beta 9.000000, power_nb 6.000000,
+tensor(0.0006)
+
+beta -3.000000, power_nb 7.000000,
+tensor(0.0196)
+beta -1.000000, power_nb 7.000000,
+tensor(0.0004)
+beta 9.000000, power_nb 7.000000,
+tensor(0.0167)

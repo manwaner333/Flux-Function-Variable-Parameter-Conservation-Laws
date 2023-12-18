@@ -1,0 +1,553 @@
+一 、 np_power = 6
+学习出来的系数：
+[ 8.4920e-03,  1.3823e+00,  1.9598e-01, -3.3295e-01, -3.9308e-01,
+ -1.8213e-02,  1.5651e-01, -1.7243e-05,  2.0499e-03,  4.8243e-02,
+ -1.2439e-01,  5.9704e-02,  5.1649e-02, -3.7291e-02]
+
+
+
+二、  np_power = 5
+学习出来的系数
+[ 7.3179e-03,  1.4015e+00,  1.6697e-01, -4.3744e-01, -2.3990e-01,
+  9.6361e-02, -2.6094e-04,  8.7118e-03,  7.7761e-03, -4.1227e-02,
+  1.8892e-02,  6.3432e-03]
+
+
+三 ， np_power = 4
+学习出来的系数
+[ 8.7882e-03,  1.4095e+00,  5.6999e-02, -2.5414e-01, -2.3271e-01,
+-1.8903e-04,  6.8922e-03,  1.8202e-02, -6.3637e-02,  3.9014e-02]
+
+四. np_power = 3
+学习出来的系数
+[ 9.0182e-03,  1.3722e+00,  2.9371e-01, -6.8233e-01, -7.2582e-04,
+          1.7870e-02, -3.1646e-02,  1.4226e-02]
+
+
+五. np_power = 2
+学习出来的系数
+[-2.5740e-02,  1.7862e+00, -7.3475e-01, -2.3229e-05,  9.3153e-03,
+         -1.0293e-02]
+
+
+六. np_power = 1
+学习出来的系数
+[ 9.6418e-02,  1.0514e+00,  1.6945e-03, -9.6213e-04]
+
+七. np_power = 7
+学习出来的系数
+[ 1.2900e-02,  1.3306e+00,  2.9959e-01, -3.2564e-01, -3.7582e-01,
+ -2.3260e-01,  1.6571e-01,  1.2841e-01, -6.3185e-05,  3.5757e-03,
+  3.6194e-02, -9.4567e-02,  6.6900e-02, -7.4482e-02,  1.2975e-01,
+ -6.7465e-02]
+
+八. np_power = 8
+学习出来的系数
+[ 1.6546e-02,  1.2972e+00,  3.4795e-01, -3.4739e-01, -2.9556e-01,
+ -1.0908e-01, -1.7838e-01,  1.7805e-02,  2.5824e-01, -1.9990e-04,
+  8.0966e-03, -1.9496e-03,  3.7383e-02, -1.4915e-01,  1.0300e-01,
+  3.3892e-02, -1.8826e-03, -2.9432e-02]
+
+
+
+# 产生数据的过程
+C:\Users\47486\anaconda3\python.exe C:/Users/47486/Documents/Code/ConsLawNet1/learn_multiplication_function_update_numerical_scheme_with_param/version_3/prediction.py
+is_real
+True
+beta -150.000000, power_nb 1.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 1.000000, max_f_prime 1.195719, dt 0.015504, time_steps 129.000000,
+U
+torch.Size([129, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 1.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 1.000000, max_f_prime 1.147613, dt 0.016260, time_steps 123.000000,
+U
+torch.Size([123, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 1.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 1.000000, max_f_prime 1.099506, dt 0.016949, time_steps 118.000000,
+U
+torch.Size([118, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 1.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 1.000000, max_f_prime 0.714654, dt 0.025974, time_steps 77.000000,
+U
+torch.Size([77, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 1.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 1.000000, max_f_prime 0.666548, dt 0.027778, time_steps 72.000000,
+U
+torch.Size([72, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 2.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 2.000000, max_f_prime 2.007305, dt 0.009302, time_steps 215.000000,
+U
+torch.Size([215, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 2.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 2.000000, max_f_prime 1.443770, dt 0.012903, time_steps 155.000000,
+U
+torch.Size([155, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 2.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 2.000000, max_f_prime 1.320435, dt 0.014085, time_steps 142.000000,
+U
+torch.Size([142, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 2.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 2.000000, max_f_prime 5.046555, dt 0.003711, time_steps 539.000000,
+U
+torch.Size([539, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 2.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 2.000000, max_f_prime 5.512320, dt 0.003396, time_steps 589.000000,
+U
+torch.Size([589, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 3.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 3.000000, max_f_prime 1.698997, dt 0.010989, time_steps 182.000000,
+U
+torch.Size([182, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 3.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 3.000000, max_f_prime 1.479151, dt 0.012579, time_steps 159.000000,
+U
+torch.Size([159, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 3.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 3.000000, max_f_prime 1.320484, dt 0.014085, time_steps 142.000000,
+U
+torch.Size([142, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 3.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 3.000000, max_f_prime 7.626700, dt 0.002454, time_steps 815.000000,
+U
+torch.Size([815, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 3.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 3.000000, max_f_prime 8.520200, dt 0.002198, time_steps 910.000000,
+U
+torch.Size([910, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 4.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 4.000000, max_f_prime 1.993078, dt 0.009346, time_steps 214.000000,
+U
+torch.Size([214, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 4.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 4.000000, max_f_prime 1.638696, dt 0.011364, time_steps 176.000000,
+U
+torch.Size([176, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 4.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 4.000000, max_f_prime 1.330353, dt 0.013986, time_steps 143.000000,
+U
+torch.Size([143, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 4.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 4.000000, max_f_prime 4.489590, dt 0.004167, time_steps 480.000000,
+U
+torch.Size([480, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 4.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 4.000000, max_f_prime 4.929307, dt 0.003795, time_steps 527.000000,
+U
+torch.Size([527, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 5.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 5.000000, max_f_prime 1.939847, dt 0.009615, time_steps 208.000000,
+U
+torch.Size([208, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 5.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 5.000000, max_f_prime 1.596052, dt 0.011696, time_steps 171.000000,
+U
+torch.Size([171, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 5.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 5.000000, max_f_prime 1.307013, dt 0.014286, time_steps 140.000000,
+U
+torch.Size([140, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 5.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 5.000000, max_f_prime 4.645512, dt 0.004024, time_steps 497.000000,
+U
+torch.Size([497, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 5.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 5.000000, max_f_prime 5.106603, dt 0.003663, time_steps 546.000000,
+U
+torch.Size([546, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 6.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 6.000000, max_f_prime 1.992418, dt 0.009346, time_steps 214.000000,
+U
+torch.Size([214, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 6.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 6.000000, max_f_prime 1.657359, dt 0.011236, time_steps 178.000000,
+U
+torch.Size([178, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 6.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 6.000000, max_f_prime 1.360680, dt 0.013699, time_steps 146.000000,
+U
+torch.Size([146, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 6.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 6.000000, max_f_prime 4.584039, dt 0.004082, time_steps 490.000000,
+U
+torch.Size([490, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 6.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 6.000000, max_f_prime 5.037026, dt 0.003717, time_steps 538.000000,
+U
+torch.Size([538, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 7.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 7.000000, max_f_prime 2.046075, dt 0.009132, time_steps 219.000000,
+U
+torch.Size([219, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 7.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 7.000000, max_f_prime 1.693718, dt 0.010989, time_steps 182.000000,
+U
+torch.Size([182, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 7.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 7.000000, max_f_prime 1.380009, dt 0.013514, time_steps 148.000000,
+U
+torch.Size([148, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 7.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 7.000000, max_f_prime 4.482604, dt 0.004175, time_steps 479.000000,
+U
+torch.Size([479, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 7.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 7.000000, max_f_prime 4.923832, dt 0.003802, time_steps 526.000000,
+U
+torch.Size([526, 4, 400])
+is_real
+True
+beta -150.000000, power_nb 8.000000, max_f_prime 1.972266, dt 0.009479, time_steps 211.000000,
+U
+torch.Size([211, 4, 400])
+is_real
+False
+beta -150.000000, power_nb 8.000000, max_f_prime 2.105978, dt 0.008850, time_steps 226.000000,
+U
+torch.Size([226, 4, 400])
+is_real
+True
+beta -100.000000, power_nb 8.000000, max_f_prime 1.632679, dt 0.011429, time_steps 175.000000,
+U
+torch.Size([175, 4, 400])
+is_real
+False
+beta -100.000000, power_nb 8.000000, max_f_prime 1.733218, dt 0.010753, time_steps 186.000000,
+U
+torch.Size([186, 4, 400])
+is_real
+True
+beta -50.000000, power_nb 8.000000, max_f_prime 1.500000, dt 0.012422, time_steps 161.000000,
+U
+torch.Size([161, 4, 400])
+is_real
+False
+beta -50.000000, power_nb 8.000000, max_f_prime 1.398255, dt 0.013333, time_steps 150.000000,
+U
+torch.Size([150, 4, 400])
+is_real
+True
+beta 350.000000, power_nb 8.000000, max_f_prime 4.694581, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+is_real
+False
+beta 350.000000, power_nb 8.000000, max_f_prime 4.283197, dt 0.004367, time_steps 458.000000,
+U
+torch.Size([458, 4, 400])
+is_real
+True
+beta 400.000000, power_nb 8.000000, max_f_prime 5.156713, dt 0.003630, time_steps 551.000000,
+U
+torch.Size([551, 4, 400])
+is_real
+False
+beta 400.000000, power_nb 8.000000, max_f_prime 4.699460, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 4, 400])
+
+is_real
+True
+beta -200.000000, power_nb 6.000000, max_f_prime 2.321669, dt 0.008032, time_steps 249.000000,
+U
+torch.Size([249, 4, 400])
+is_real
+False
+beta -200.000000, power_nb 6.000000, max_f_prime 2.338760, dt 0.008000, time_steps 250.000000,
+U
+torch.Size([250, 4, 400])
+
+
+# 数据产生loss的过程
+C:\Users\47486\anaconda3\python.exe C:/Users/47486/Documents/Code/ConsLawNet1/learn_multiplication_function_update_numerical_scheme_with_param/version_3/plot.py
+beta -150.000000, power_nb 1.000000,
+tensor(0.0076)
+beta -100.000000, power_nb 1.000000,
+tensor(0.0029)
+beta -50.000000, power_nb 1.000000,
+tensor(0.0013)
+beta 350.000000, power_nb 1.000000,
+tensor(0.0515)
+beta 400.000000, power_nb 1.000000,
+tensor(0.0604)
+beta -150.000000, power_nb 2.000000,
+tensor(0.0026)
+beta -100.000000, power_nb 2.000000,
+tensor(0.0016)
+beta -50.000000, power_nb 2.000000,
+tensor(0.0011)
+beta 350.000000, power_nb 2.000000,
+tensor(0.0046)
+beta 400.000000, power_nb 2.000000,
+tensor(0.0048)
+beta -150.000000, power_nb 3.000000,
+tensor(0.0048)
+beta -100.000000, power_nb 3.000000,
+tensor(0.0024)
+beta -50.000000, power_nb 3.000000,
+tensor(0.0006)
+beta 350.000000, power_nb 3.000000,
+tensor(0.0083)
+beta 400.000000, power_nb 3.000000,
+tensor(0.0087)
+beta -150.000000, power_nb 4.000000,
+tensor(0.0008)
+beta -100.000000, power_nb 4.000000,
+tensor(0.0005)
+beta -50.000000, power_nb 4.000000,
+tensor(0.0002)
+beta 350.000000, power_nb 4.000000,
+tensor(0.0019)
+beta 400.000000, power_nb 4.000000,
+tensor(0.0020)
+beta -150.000000, power_nb 5.000000,
+tensor(0.0011)
+beta -100.000000, power_nb 5.000000,
+tensor(0.0006)
+beta -50.000000, power_nb 5.000000,
+tensor(0.0002)
+beta 350.000000, power_nb 5.000000,
+tensor(0.0028)
+beta 400.000000, power_nb 5.000000,
+tensor(0.0030)
+beta -150.000000, power_nb 6.000000,
+tensor(0.0002)
+beta -100.000000, power_nb 6.000000,
+tensor(0.0002)
+beta -50.000000, power_nb 6.000000,
+tensor(7.5443e-05)
+beta 350.000000, power_nb 6.000000,
+tensor(0.0001)
+beta 400.000000, power_nb 6.000000,
+tensor(9.6555e-05)
+beta -150.000000, power_nb 7.000000,
+tensor(0.0005)
+beta -100.000000, power_nb 7.000000,
+tensor(0.0003)
+beta -50.000000, power_nb 7.000000,
+tensor(0.0002)
+beta 350.000000, power_nb 7.000000,
+tensor(0.0002)
+beta 400.000000, power_nb 7.000000,
+tensor(0.0003)
+beta -150.000000, power_nb 8.000000,
+tensor(0.0012)
+beta -100.000000, power_nb 8.000000,
+tensor(0.0006)
+beta -50.000000, power_nb 8.000000,
+tensor(0.0003)
+beta 350.000000, power_nb 8.000000,
+tensor(0.0012)
+beta 400.000000, power_nb 8.000000,
+tensor(0.0016)
+
+
+
+

@@ -1,0 +1,315 @@
+如果用[1, 3, 5, 7] 来进行测试
+一 、 np_power = 6
+学习出来的系数
+Parameter containing:
+tensor([[-5.0276e-04,  1.3425e-01, -1.3806e+00, -8.1740e-01, -8.5628e+00,
+         -4.0237e+00, -1.7831e+01,  4.8488e-05,  1.2095e-02,  3.5346e-01,
+          1.1697e+00, -3.9630e+00,  8.0325e+00, -1.0093e+01]],
+       dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.1892e-01, -3.3478e-01,  1.8038e-02, -3.1518e+00, -3.5086e+00,
+         -6.4429e+00, -1.8970e+01,  1.2175e-02, -1.5090e-01,  4.7286e-01,
+         -7.2084e-01,  1.4481e+00,  2.4891e+00, -7.9917e+00]],
+       dtype=torch.float64, requires_grad=True)
+
+
+二 、 np_power = 5
+学习出来的系数
+Parameter containing:
+tensor([[-3.7886e-04,  1.7722e-01, -2.1390e+00, -2.3398e+00,  2.9156e+00,
+         -5.6840e+00,  7.4598e-04,  2.0593e-02,  9.2035e-01, -1.9898e+00,
+          1.6017e+00, -1.4184e+00]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-4.3133e-01,  4.2236e-01, -9.5366e-01, -1.4940e+00, -1.2897e+00,
+         -3.3011e+00, -1.3976e-03, -1.0103e-01,  4.5955e-01, -5.1161e-02,
+         -4.9796e-01, -6.6712e-01]], dtype=torch.float64, requires_grad=True)
+
+三 、 np_power = 4
+学习出来的系数
+Parameter containing:
+tensor([[-8.4638e-04,  2.0199e-01, -2.3175e+00,  1.9913e+00, -9.5435e+00,
+          6.6544e-05,  2.5143e-03,  6.4379e-01, -3.5646e-01, -9.9890e-01]],
+       dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.2786, -0.0736, -0.4807,  0.8407, -9.6889,  0.0211, -0.2598,  0.7158,
+          0.1884, -1.3766]], dtype=torch.float64, requires_grad=True)
+
+四 、 np_power = 3
+学习出来的系数
+Parameter containing:
+tensor([[-1.6937e-03, -1.6872e-02,  4.6222e-01,  1.3303e+00,  1.1976e-04,
+         -1.4622e-02, -2.8059e-01,  4.6949e-01]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([[ 0.1713, -0.2219,  0.1518,  1.6842, -0.0082,  0.1406, -0.5663,  0.6089]],
+       dtype=torch.float64, requires_grad=True)
+
+
+五 、 np_power = 7
+Parameter containing:
+tensor([[-8.5269e-04, -3.9851e-02,  7.2015e-01,  4.6458e-02,  9.8653e-02,
+          7.5191e-01,  1.1766e+00,  7.4849e-01,  1.2460e-04, -2.8767e-02,
+         -1.0937e-01,  1.2293e-01,  1.4737e-01,  1.9967e-01, -1.4576e-01,
+         -1.7691e-01]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.7766e-01, -3.8585e-01,  5.6469e-01,  5.9339e-01,  3.0584e-01,
+          2.1256e-01,  7.4027e-01,  1.2990e+00,  5.7440e-04,  2.4165e-02,
+         -1.2227e-01,  6.7406e-02, -1.8451e-02,  3.1413e-01,  1.6092e-01,
+         -4.1918e-01]], dtype=torch.float64, requires_grad=True)
+
+六 、 np_power = 8
+Parameter containing:
+tensor([[ 4.5606e-04, -1.0869e-01,  1.0736e+00,  1.7163e+00, -1.1276e+00,
+         -3.5798e-01,  7.2708e+00,  1.4024e+01,  4.1288e+00, -8.6597e-06,
+         -2.1302e-02, -1.9570e-01, -6.8458e-01,  2.1531e+00,  5.8934e-01,
+         -3.0370e+00, -2.0360e+00,  4.0298e+00]], dtype=torch.float64,
+       requires_grad=True)
+Parameter containing:
+tensor([[ 2.1843e-01, -2.0391e-01,  6.7025e-01,  5.6516e-01,  1.0551e+00,
+          2.7940e+00,  4.1274e+00,  6.0926e+00,  1.1397e+01, -8.2792e-03,
+          1.0715e-01, -3.0087e-01, -1.9334e-01,  9.1613e-01,  5.3202e-01,
+         -1.4133e+00, -2.2095e+00,  3.3439e+00]], dtype=torch.float64,
+       requires_grad=True)
+
+
+学习到测试的东西
+is_real
+True
+beta -5.000000, power_nb 3.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 1, 400])
+is_real
+False
+beta -5.000000, power_nb 3.000000, max_f_prime 4.624620, dt 0.004049, time_steps 494.000000,
+U
+torch.Size([494, 1, 400])
+is_real
+True
+beta -3.000000, power_nb 3.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 1, 400])
+is_real
+False
+beta -3.000000, power_nb 3.000000, max_f_prime 3.655703, dt 0.005115, time_steps 391.000000,
+U
+torch.Size([391, 1, 400])
+is_real
+True
+beta -1.000000, power_nb 3.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 1, 400])
+is_real
+False
+beta -1.000000, power_nb 3.000000, max_f_prime 3.042899, dt 0.006135, time_steps 326.000000,
+U
+torch.Size([326, 1, 400])
+is_real
+True
+beta 9.000000, power_nb 3.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 1, 400])
+is_real
+False
+beta 9.000000, power_nb 3.000000, max_f_prime 5.872016, dt 0.003190, time_steps 627.000000,
+U
+torch.Size([627, 1, 400])
+is_real
+True
+beta -5.000000, power_nb 4.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 1, 400])
+is_real
+False
+beta -5.000000, power_nb 4.000000, max_f_prime 4.753405, dt 0.003937, time_steps 508.000000,
+U
+torch.Size([508, 1, 400])
+is_real
+True
+beta -3.000000, power_nb 4.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 1, 400])
+is_real
+False
+beta -3.000000, power_nb 4.000000, max_f_prime 3.756603, dt 0.004975, time_steps 402.000000,
+U
+torch.Size([402, 1, 400])
+is_real
+True
+beta -1.000000, power_nb 4.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 1, 400])
+is_real
+False
+beta -1.000000, power_nb 4.000000, max_f_prime 3.073490, dt 0.006079, time_steps 329.000000,
+U
+torch.Size([329, 1, 400])
+is_real
+True
+beta 9.000000, power_nb 4.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 1, 400])
+is_real
+False
+beta 9.000000, power_nb 4.000000, max_f_prime 5.923186, dt 0.003160, time_steps 633.000000,
+U
+torch.Size([633, 1, 400])
+is_real
+True
+beta -5.000000, power_nb 5.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 1, 400])
+is_real
+False
+beta -5.000000, power_nb 5.000000, max_f_prime 4.265315, dt 0.004386, time_steps 456.000000,
+U
+torch.Size([456, 1, 400])
+is_real
+True
+beta -3.000000, power_nb 5.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 1, 400])
+is_real
+False
+beta -3.000000, power_nb 5.000000, max_f_prime 3.496987, dt 0.005348, time_steps 374.000000,
+U
+torch.Size([374, 1, 400])
+is_real
+True
+beta -1.000000, power_nb 5.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 1, 400])
+is_real
+False
+beta -1.000000, power_nb 5.000000, max_f_prime 2.990603, dt 0.006250, time_steps 320.000000,
+U
+torch.Size([320, 1, 400])
+is_real
+True
+beta 9.000000, power_nb 5.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 1, 400])
+is_real
+False
+beta 9.000000, power_nb 5.000000, max_f_prime 5.946027, dt 0.003150, time_steps 635.000000,
+U
+torch.Size([635, 1, 400])
+is_real
+True
+beta -5.000000, power_nb 6.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 1, 400])
+is_real
+False
+beta -5.000000, power_nb 6.000000, max_f_prime 4.677635, dt 0.004000, time_steps 500.000000,
+U
+torch.Size([500, 1, 400])
+is_real
+True
+beta -3.000000, power_nb 6.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 1, 400])
+is_real
+False
+beta -3.000000, power_nb 6.000000, max_f_prime 3.762114, dt 0.004975, time_steps 402.000000,
+U
+torch.Size([402, 1, 400])
+is_real
+True
+beta -1.000000, power_nb 6.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 1, 400])
+is_real
+False
+beta -1.000000, power_nb 6.000000, max_f_prime 3.107928, dt 0.006006, time_steps 333.000000,
+U
+torch.Size([333, 1, 400])
+is_real
+True
+beta 9.000000, power_nb 6.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 1, 400])
+is_real
+False
+beta 9.000000, power_nb 6.000000, max_f_prime 5.968378, dt 0.003135, time_steps 638.000000,
+U
+torch.Size([638, 1, 400])
+is_real
+True
+beta -5.000000, power_nb 7.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 1, 400])
+is_real
+False
+beta -5.000000, power_nb 7.000000, max_f_prime 4.287489, dt 0.004367, time_steps 458.000000,
+U
+torch.Size([458, 1, 400])
+is_real
+True
+beta -3.000000, power_nb 7.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 1, 400])
+is_real
+False
+beta -3.000000, power_nb 7.000000, max_f_prime 3.592048, dt 0.005208, time_steps 384.000000,
+U
+torch.Size([384, 1, 400])
+is_real
+True
+beta -1.000000, power_nb 7.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 1, 400])
+is_real
+False
+beta -1.000000, power_nb 7.000000, max_f_prime 3.090565, dt 0.006042, time_steps 331.000000,
+U
+torch.Size([331, 1, 400])
+is_real
+True
+beta 9.000000, power_nb 7.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 1, 400])
+is_real
+False
+beta 9.000000, power_nb 7.000000, max_f_prime 5.926049, dt 0.003160, time_steps 633.000000,
+U
+torch.Size([633, 1, 400])
+is_real
+True
+beta -5.000000, power_nb 8.000000, max_f_prime 4.701339, dt 0.003984, time_steps 502.000000,
+U
+torch.Size([502, 1, 400])
+is_real
+False
+beta -5.000000, power_nb 8.000000, max_f_prime 4.674742, dt 0.004000, time_steps 500.000000,
+U
+torch.Size([500, 1, 400])
+is_real
+True
+beta -3.000000, power_nb 8.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 1, 400])
+is_real
+False
+beta -3.000000, power_nb 8.000000, max_f_prime 3.808559, dt 0.004914, time_steps 407.000000,
+U
+torch.Size([407, 1, 400])
+is_real
+True
+beta -1.000000, power_nb 8.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 1, 400])
+is_real
+False
+beta -1.000000, power_nb 8.000000, max_f_prime 3.141569, dt 0.005952, time_steps 336.000000,
+U
+torch.Size([336, 1, 400])
+is_real
+True
+beta 9.000000, power_nb 8.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 1, 400])
+is_real
+False
+beta 9.000000, power_nb 8.000000, max_f_prime 5.795494, dt 0.003231, time_steps 619.000000,
+U
+torch.Size([619, 1, 400])

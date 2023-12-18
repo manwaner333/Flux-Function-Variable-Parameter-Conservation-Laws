@@ -1,0 +1,12 @@
+(1 N_400_example_4_dt_0.1_layer_10_beta_70
+max_f_prime 2.108937, dt 0.008850, time_steps 226.000000,
+
+(2) 初始值的设定
+batch_size = 4
+u_0_np = np.zeros((batch_size, N), dtype=float)
+u_0_np[:1, 180:240] = 1.0
+u_0_np[1:2, 200:260] = 0.9
+u_0_np[2:3, 160:280] = 0.8
+u_0_np[3:4, 0:120] = 0.7
+u_0 = torch.from_numpy(u_0_np)
+u_0 = u_0.to(device)

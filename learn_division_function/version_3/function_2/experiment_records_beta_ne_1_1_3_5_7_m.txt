@@ -1,0 +1,254 @@
+一. power_nb = 3
+[-0.1428,  1.8134,  1.1932, -1.9714,  0.0316, -0.8895,  1.9653, -1.1219]
+
+二. power_nb = 4
+[ 1.4971e-02, -1.3835e+00,  1.5636e+01, -2.4473e+01,  1.1256e+01,
+2.9137e-02, -8.3863e-01,  1.7329e+00, -7.5692e-01, -1.8362e-01]
+
+三. power_nb = 5
+[-0.0224, -0.3206,  8.5242, -6.1717, -8.7515,  7.8176,  0.0180, -0.4742,
+-0.9457,  6.6184, -8.6716,  3.4531]
+
+四. power_nb = 6
+[ -0.0181,  -0.5221,  10.0918, -10.0130,  -6.1992,   9.4225,  -1.7064,
+0.0173,  -0.4678,  -0.7494,   4.8684,  -3.7966,  -2.0554,   2.1886]
+
+五 power_nb = 7
+[ 8.2681e-04, -9.0358e-01,  1.1305e+01, -8.9121e+00, -1.1344e+01,
+5.4914e+00,  1.4598e+01, -9.2226e+00,  1.4147e-02, -3.8340e-01,
+-1.2327e+00,  5.7058e+00, -3.7262e+00, -3.3704e+00,  3.0961e+00,
+-9.4790e-02]
+
+六 power_nb = 8
+[ 6.3088e-03, -8.9215e-01,  1.0290e+01, -5.1067e+00, -1.2334e+01,
+-1.6851e+00,  1.1300e+01,  1.1168e+01, -1.1770e+01,  9.6516e-03,
+-2.6369e-01, -1.9240e+00,  6.8170e+00, -3.1741e+00, -5.0403e+00,
+9.1369e-01,  4.9319e+00, -2.2626e+00]
+
+
+
+
+
+is_real
+True
+beta -3.000000, power_nb 3.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 3.000000, max_f_prime 4.481900, dt 0.004175, time_steps 479.000000,
+U
+torch.Size([479, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 3.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 3.000000, max_f_prime 2.702900, dt 0.006920, time_steps 289.000000,
+U
+torch.Size([289, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 3.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 3.000000, max_f_prime 6.192100, dt 0.003021, time_steps 662.000000,
+U
+torch.Size([662, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 4.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 4.000000, max_f_prime 3.020909, dt 0.006192, time_steps 323.000000,
+U
+torch.Size([323, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 4.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 4.000000, max_f_prime 2.679408, dt 0.006969, time_steps 287.000000,
+U
+torch.Size([287, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 4.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 4.000000, max_f_prime 8.931170, dt 0.002096, time_steps 954.000000,
+U
+torch.Size([954, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 5.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 5.000000, max_f_prime 3.057853, dt 0.006116, time_steps 327.000000,
+U
+torch.Size([327, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 5.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 5.000000, max_f_prime 2.579981, dt 0.007246, time_steps 276.000000,
+U
+torch.Size([276, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 5.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 5.000000, max_f_prime 4.588400, dt 0.004082, time_steps 490.000000,
+U
+torch.Size([490, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 6.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 6.000000, max_f_prime 3.138401, dt 0.005952, time_steps 336.000000,
+U
+torch.Size([336, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 6.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 6.000000, max_f_prime 2.630753, dt 0.007092, time_steps 282.000000,
+U
+torch.Size([282, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 6.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 6.000000, max_f_prime 4.732300, dt 0.003953, time_steps 506.000000,
+U
+torch.Size([506, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 7.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 7.000000, max_f_prime 3.257567, dt 0.005747, time_steps 348.000000,
+U
+torch.Size([348, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 7.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 7.000000, max_f_prime 2.764736, dt 0.006757, time_steps 296.000000,
+U
+torch.Size([296, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 7.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 7.000000, max_f_prime 4.365480, dt 0.004283, time_steps 467.000000,
+U
+torch.Size([467, 4, 400])
+is_real
+True
+beta -3.000000, power_nb 8.000000, max_f_prime 3.843877, dt 0.004866, time_steps 411.000000,
+U
+torch.Size([411, 4, 400])
+is_real
+False
+beta -3.000000, power_nb 8.000000, max_f_prime 3.315429, dt 0.005634, time_steps 355.000000,
+U
+torch.Size([355, 4, 400])
+is_real
+True
+beta -1.000000, power_nb 8.000000, max_f_prime 3.200189, dt 0.005848, time_steps 342.000000,
+U
+torch.Size([342, 4, 400])
+is_real
+False
+beta -1.000000, power_nb 8.000000, max_f_prime 2.826051, dt 0.006623, time_steps 302.000000,
+U
+torch.Size([302, 4, 400])
+is_real
+True
+beta 9.000000, power_nb 8.000000, max_f_prime 5.288540, dt 0.003540, time_steps 565.000000,
+U
+torch.Size([565, 4, 400])
+is_real
+False
+beta 9.000000, power_nb 8.000000, max_f_prime 4.519541, dt 0.004141, time_steps 483.000000,
+U
+torch.Size([483, 4, 400])
+
+
+beta -3.000000, power_nb 3.000000,
+tensor(0.0097)
+beta -1.000000, power_nb 3.000000,
+tensor(0.0052)
+beta 9.000000, power_nb 3.000000,
+tensor(0.0048)
+
+beta -3.000000, power_nb 4.000000,
+tensor(0.0020)
+beta -1.000000, power_nb 4.000000,
+tensor(0.0009)
+beta 9.000000, power_nb 4.000000,
+tensor(0.0106)
+
+beta -3.000000, power_nb 5.000000,
+tensor(0.0020)
+beta -1.000000, power_nb 5.000000,
+tensor(0.0010)
+beta 9.000000, power_nb 5.000000,
+tensor(0.0045)
+
+beta -3.000000, power_nb 6.000000,
+tensor(0.0014)
+beta -1.000000, power_nb 6.000000,
+tensor(0.0007)
+beta 9.000000, power_nb 6.000000,
+tensor(0.0038)
+
+beta -3.000000, power_nb 7.000000,
+tensor(0.0005)
+beta -1.000000, power_nb 7.000000,
+tensor(0.0003)
+beta 9.000000, power_nb 7.000000,
+tensor(0.0036)
+
+beta -3.000000, power_nb 8.000000,
+tensor(0.0005)
+beta -1.000000, power_nb 8.000000,
+tensor(0.0003)
+beta 9.000000, power_nb 8.000000,
+tensor(0.0026)
